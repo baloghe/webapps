@@ -1,0 +1,37 @@
+div.emptyCell {
+	width:20px;
+	height:20px;
+	background-color:lightgrey;
+}
+div.crossCell {
+	width:20px;
+	height:20px;
+	background-color:lightgrey;
+	background-image:url('cross.png');
+}
+div.circleCell {
+	width:20px;
+	height:20px;
+	background-color:lightgrey;
+	background-image:url('circle.png');
+}
+button.emptyCell{
+	width:20px;
+	height:20px;
+	background-color:lightgrey;
+}
+td.lastGame{
+	vertical-align: top;
+}
+table.stats{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+th, td .stats{
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+}
+th.stats{
+	background-color:coral;
+}

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<test>
+	<subjects>
+		<subject id="S1" name="Sammlung 1 Satz" />
+		<subject id="S3" name="Sammlung 3 Satzes" />
+	</subjects>
+	<sentences>
+		<sentence subjectID="S3" txt="Im Verlauf von wenigen Jahrzehnten kühlte das Wetter im [/Europa/] der Steinzeit vor mehr als [/8000/] Jahren ab." />
+		<sentence subjectID="S3" txt="Möglicherweise hätte der Klimawandel sogar die Ausbreitung der Landwirtschaft nach [/Europa/] begünstigt, schreiben die Forscher." />
+		<sentence subjectID="S3" txt="Dann untersuchten die Forscher, wie sich die klimatischen Veränderungen auf das Leben der Menschen ausgewirkt hatten." />
+		
+		<sentence subjectID="S1" txt="Im Verlauf von wenigen Jahrzehnten kühlte das Wetter im [/Europa/] der Steinzeit vor mehr als [/8000/] Jahren ab." />
+	</sentences>
+</test>

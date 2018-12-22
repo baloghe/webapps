@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<test>
+	<subjects>
+		<subject id="S1" name="Échantillon 1 phrase" />
+		<subject id="S3" name="Échantillon 2 phrases" />
+	</subjects>
+	<sentences>
+		<sentence subjectID="S3" txt="Ce n'est pas vrai du tout, que l'être humain soit une créature qui comprenne la vie." />
+		<sentence subjectID="S3" txt="La Prusse n’est pas un pays qui a une armée, c’est une armée qui a un pays. [/(Mirabeau)/]" />
+		
+		<sentence subjectID="S1" txt="La Prusse n’est pas un pays qui a une armée, c’est une armée qui a un pays. [/(Mirabeau)/]" />
+	</sentences>
+</test>

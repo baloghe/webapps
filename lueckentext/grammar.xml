@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<grammar lang="FR">
+	<wordtype id="XOTH" label="Autre" order="100" default="Y"/>
+</grammar>
+<grammar lang="EN">
+	<wordtype id="XOTH" label="Other" order="100" default="Y"/>
+	<wordtype id="NOMPRON" label="Nominal pronouns" order="1">
+		<wordbag order="1">
+			<word txt="I" order="1" />
+			<word txt="you" order="2" />
+			<word txt="she" order="3" />
+			<word txt="he" order="4" />
+			<word txt="they" order="5" />
+			<word txt="it" order="6" />
+			<word txt="we" order="7" />
+			<word txt="me" order="8" />
+			<word txt="him" order="9" />
+			<word txt="them" order="10" />
+			<word txt="it" order="11" />
+			<word txt="us" order="12" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="RFXPRON" label="Reflexive pronouns" order="2">
+		<wordbag order="1">
+			<word txt="myself" order="1" />
+			<word txt="yourself" order="2" />
+			<word txt="yourselves" order="3" />
+			<word txt="herself" order="4" />
+			<word txt="himself" order="5" />
+			<word txt="themself" order="6" />
+			<word txt="itself" order="7" />
+			<word txt="ourselves" order="8" />
+			<word txt="themselves" order="9" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="POSPRON" label="Possessive pronouns" order="3">
+		<wordbag order="1">
+			<word txt="my" order="1" />
+			<word txt="mine" order="2" />
+			<word txt="your" order="3" />
+			<word txt="yours" order="4" />
+			<word txt="her" order="5" />
+			<word txt="his" order="6" />
+			<word txt="their" order="7" />
+			<word txt="its" order="8" />
+			<word txt="hers" order="9" />
+			<word txt="his" order="10" />
+			<word txt="theirs" order="11" />
+			<word txt="its" order="12" />
+			<word txt="our" order="13" />
+			<word txt="ours" order="14" />
+			<word txt="their" order="15" />
+			<word txt="theirs" order="16" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="INTPRON" label="Interrogative pronouns" order="4">
+		<wordbag order="1">
+			<word txt="what" order="1" />
+			<word txt="which" order="2" />
+			<word txt="who" order="3" />
+			<word txt="whom" order="4" />
+			<word txt="whose" order="5" />
+			<word txt="whatever" order="6" />
+			<word txt="whatsoever" order="7" />
+			<word txt="whichever" order="8" />
+			<word txt="whoever" order="9" />
+			<word txt="whosoever" order="10" />
+			<word txt="whomever" order="11" />
+			<word txt="whomsoever" order="12" />
+			<word txt="whosever" order="13" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="DEMPRON" label="Demonstrative pronouns" order="5">
+		<wordbag order="1">
+			<word txt="this" order="1" />
+			<word txt="that" order="2" />
+			<word txt="these" order="3" />
+			<word txt="those" order="4" />
+			<word txt="such" order="5" />
+			<word txt="none" order="6" />
+			<word txt="neither" order="7" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="INDPRON" label="Indefinite pronouns" order="6">
+		<wordbag order="1">
+			<word txt="many" order="1" />
+			<word txt="somebody" order="2" />
+			<word txt="everyone" order="3" />
+			<word txt="each" order="4" />
+			<word txt="something" order="5" />
+			<word txt="anybody" order="6" />
+			<word txt="either" order="7" />
+			<word txt="both" order="8" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="CONJ" label="Conjunctions" order="7">
+		<wordbag order="1">
+			<word txt="after" order="1" />
+			<word txt="although" order="2" />
+			<word txt="before" order="3" />
+			<word txt="even" order="4" />
+			<word txt="because" order="5" />
+			<word txt="whenever" order="6" />
+			<word txt="so" order="7" />
+			<word txt="if" order="8" />
+			<word txt="until" order="9" />
+			<word txt="case" order="10" />
+			<word txt="since" order="11" />
+			<word txt="than" order="12" />
+			<word txt="then" order="13" />
+			<word txt="unless" order="14" />
+			<word txt="whether" order="15" />
+			<word txt="once" order="16" />
+			<word txt="or" order="17" />
+			<word txt="nor" order="18" />
+			<word txt="not" order="19" />
+			<word txt="yet" order="20" />
+			<word txt="with" order="21" />
+			<word txt="rather" order="22" />
+			<word txt="just" order="23" />
+			<word txt="only" order="24" />
+			<word txt="for" order="25" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="PREP" label="Prepositions" order="8">
+		<wordbag order="1">
+			<word txt="with" order="1" />
+			<word txt="up" order="2" />
+			<word txt="through" order="3" />
+			<word txt="under" order="4" />
+			<word txt="there" order="5" />
+			<word txt="now" order="6" />
+			<word txt="over" order="7" />
+			<word txt="in" order="8" />
+			<word txt="into" order="9" />
+			<word txt="down" order="10" />
+			<word txt="top" order="11" />
+			<word txt="at" order="12" />
+			<word txt="in" order="13" />
+			<word txt="on" order="14" />
+		</wordbag>
+	</wordtype>
+</grammar>
+<grammar lang="DE">
+	<wordtype id="XOTH" label="Sonstiges" order="100" default="Y"/>
+	<wordtype id="UNBSTART" label="unbestimmten Artikel" order="1">
+		<wordbag order="1">
+			<word txt="einem" order="1" />
+			<word txt="einen" order="2" />
+			<word txt="ein" order="3" />
+			<word txt="eine" order="4" />
+			<word txt="einer" order="5" />
+			<word txt="eines" order="6" />
+			<word txt="keinem" order="7" />
+			<word txt="keinen" order="8" />
+			<word txt="kein" order="9" />
+			<word txt="keine" order="10" />
+			<word txt="keiner" order="11" />
+			<word txt="keines" order="12" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="BSTART" label="bestimmten Artikel" order="2">
+		<wordbag order="1">
+			<word txt="das" order="1" />
+			<word txt="dem" order="2" />
+			<word txt="den" order="3" />
+			<word txt="der" order="4" />
+			<word txt="die" order="5" />
+			<word txt="des" order="6" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="PRON" label="Pronomen" order="3">
+		<wordbag order="1">
+			<word txt="dasjenige" order="1" />
+			<word txt="dasselbe" order="2" />
+			<word txt="dein" order="3" />
+			<word txt="deine" order="4" />
+			<word txt="deinem" order="5" />
+			<word txt="deinen" order="6" />
+			<word txt="deiner" order="7" />
+			<word txt="deines" order="8" />
+			<word txt="demjenigen" order="9" />
+			<word txt="demselben" order="10" />
+			<word txt="denen" order="11" />
+			<word txt="denjenigen" order="12" />
+			<word txt="denselben" order="13" />
+			<word txt="deren" order="14" />
+			<word txt="derjenige" order="15" />
+			<word txt="derjenigen" order="16" />
+			<word txt="derselbe" order="17" />
+			<word txt="derselben" order="18" />
+			<word txt="desjenigen" order="19" />
+			<word txt="desselben" order="20" />
+			<word txt="dessen" order="21" />
+			<word txt="dich" order="22" />
+			<word txt="diejenige" order="23" />
+			<word txt="diejenigen" order="24" />
+			<word txt="diese" order="25" />
+			<word txt="dieselbe" order="26" />
+			<word txt="dieselben" order="27" />
+			<word txt="diesem" order="28" />
+			<word txt="diesen" order="29" />
+			<word txt="dieser" order="30" />
+			<word txt="dieses" order="31" />
+			<word txt="dir" order="32" />
+			<word txt="du" order="33" />
+			<word txt="er" order="34" />
+			<word txt="es" order="35" />
+			<word txt="euch" order="36" />
+			<word txt="euer" order="37" />
+			<word txt="eure" order="38" />
+			<word txt="eurem" order="39" />
+			<word txt="euren" order="40" />
+			<word txt="eurer" order="41" />
+			<word txt="eures" order="42" />
+			<word txt="ich" order="43" />
+			<word txt="ihm" order="44" />
+			<word txt="ihn" order="45" />
+			<word txt="ihnen" order="46" />
+			<word txt="ihr" order="47" />
+			<word txt="ihre" order="48" />
+			<word txt="ihrem" order="49" />
+			<word txt="ihren" order="50" />
+			<word txt="ihrer" order="51" />
+			<word txt="ihres" order="52" />
+			<word txt="jede" order="53" />
+			<word txt="jedem" order="54" />
+			<word txt="jeden" order="55" />
+			<word txt="jeder" order="56" />
+			<word txt="jedes" order="57" />
+			<word txt="jemand" order="58" />
+			<word txt="jemandem" order="59" />
+			<word txt="jemanden" order="60" />
+			<word txt="man" order="61" />
+			<word txt="mein" order="62" />
+			<word txt="meine" order="63" />
+			<word txt="meinem" order="64" />
+			<word txt="meinen" order="65" />
+			<word txt="meiner" order="66" />
+			<word txt="meines" order="67" />
+			<word txt="mich" order="68" />
+			<word txt="mir" order="69" />
+			<word txt="sein" order="70" />
+			<word txt="seine" order="71" />
+			<word txt="seinem" order="72" />
+			<word txt="seinen" order="73" />
+			<word txt="seiner" order="74" />
+			<word txt="seines" order="75" />
+			<word txt="sich" order="76" />
+			<word txt="sie" order="77" />
+			<word txt="uns" order="78" />
+			<word txt="unser" order="79" />
+			<word txt="unsere" order="80" />
+			<word txt="unserem" order="81" />
+			<word txt="unseren" order="82" />
+			<word txt="unserer" order="83" />
+			<word txt="unseres" order="84" />
+			<word txt="welche" order="85" />
+			<word txt="welchem" order="86" />
+			<word txt="welchen" order="87" />
+			<word txt="welcher" order="88" />
+			<word txt="welches" order="89" />
+			<word txt="wir" order="90" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="KONJ" label="Konjunktionen" order="4">
+		<wordbag order="1">
+			<word txt="aber" order="1" />
+			<word txt="auch" order="2" />
+			<word txt="denn" order="3" />
+			<word txt="doch" order="4" />
+			<word txt="oder" order="5" />
+			<word txt="sondern" order="6" />
+			<word txt="und" order="7" />
+			<word txt="als" order="8" />
+			<word txt="bevor" order="9" />
+			<word txt="bis" order="10" />
+			<word txt="da" order="11" />
+			<word txt="damit" order="12" />
+			<word txt="dass" order="13" />
+			<word txt="ehe" order="14" />
+			<word txt="falls" order="15" />
+			<word txt="indem" order="16" />
+			<word txt="nachdem" order="17" />
+			<word txt="ob" order="18" />
+			<word txt="obgleich" order="19" />
+			<word txt="obwohl" order="20" />
+			<word txt="obschon" order="21" />
+			<word txt="seit" order="22" />
+			<word txt="seitdem" order="23" />
+			<word txt="sobald" order="24" />
+			<word txt="sodass" order="25" />
+			<word txt="sofern" order="26" />
+			<word txt="solange" order="27" />
+			<word txt="sooft" order="28" />
+			<word txt="soweit" order="29" />
+			<word txt="soviel" order="30" />
+			<word txt="während" order="31" />
+			<word txt="weil" order="32" />
+			<word txt="wenn" order="33" />
+			<word txt="wie" order="34" />
+			<word txt="wohingegen" order="35" />
+			<word txt="allerdings" order="36" />
+			<word txt="also" order="37" />
+			<word txt="andererseits" order="38" />
+			<word txt="anschließend" order="39" />
+			<word txt="außerdem" order="40" />
+			<word txt="beziehungsweise" order="41" />
+			<word txt="dabei" order="42" />
+			<word txt="dadurch" order="43" />
+			<word txt="dafür" order="44" />
+			<word txt="dagegen" order="45" />
+			<word txt="damit" order="46" />
+			<word txt="danach" order="47" />
+			<word txt="dann" order="48" />
+			<word txt="darauf" order="49" />
+			<word txt="darum" order="50" />
+			<word txt="davor" order="51" />
+			<word txt="dazu" order="52" />
+			<word txt="dennoch" order="53" />
+			<word txt="deshalb" order="54" />
+			<word txt="deswegen" order="55" />
+			<word txt="einerseits" order="56" />
+			<word txt="entweder" order="57" />
+			<word txt="ferner" order="58" />
+			<word txt="folglich" order="59" />
+			<word txt="genauso" order="60" />
+			<word txt="immerhin" order="61" />
+			<word txt="inzwischen" order="62" />
+			<word txt="jedoch" order="63" />
+			<word txt="schließlich" order="64" />
+			<word txt="seitdem" order="65" />
+			<word txt="somit" order="66" />
+			<word txt="sonst" order="67" />
+			<word txt="später" order="68" />
+			<word txt="trotzdem" order="69" />
+			<word txt="vorher" order="70" />
+			<word txt="weder" order="71" />
+			<word txt="zuerst" order="72" />
+			<word txt="zuvor" order="73" />
+			<word txt="zwar" order="74" />
+			<word txt="noch" order="75" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="VBPRAEP" label="Präpositionen von Verben" order="5">
+		<wordbag order="1">
+			<word txt="ab" order="1" />
+			<word txt="an" order="2" />
+			<word txt="auf" order="3" />
+			<word txt="aus" order="4" />
+			<word txt="bei" order="5" />
+			<word txt="ein" order="6" />
+			<word txt="los" order="7" />
+			<word txt="mit" order="8" />
+			<word txt="nach" order="9" />
+			<word txt="her" order="10" />
+			<word txt="hin" order="11" />
+			<word txt="vor" order="12" />
+			<word txt="weg" order="13" />
+			<word txt="zu" order="14" />
+			<word txt="zurück" order="15" />
+			<word txt="durch" order="16" />
+			<word txt="hinter" order="17" />
+			<word txt="über" order="18" />
+			<word txt="um" order="19" />
+			<word txt="unter" order="20" />
+		</wordbag>
+	</wordtype>
+	<wordtype id="PRAEP" label="Präpositionen" order="6">
+		<wordbag order="1">
+			<word txt="an" order="1" />
+			<word txt="auf" order="2" />
+			<word txt="hinter" order="3" />
+			<word txt="in" order="4" />
+			<word txt="neben" order="5" />
+			<word txt="vor" order="6" />
+			<word txt="zu" order="7" />
+			<word txt="am" order="8" />
+			<word txt="hinterm" order="9" />
+			<word txt="hinters" order="10" />
+			<word txt="im" order="11" />
+			<word txt="ins" order="12" />
+			<word txt="zum" order="13" />
+			<word txt="zur" order="14" />
+			<word txt="bis" order="15" />
+			<word txt="gegen" order="16" />
+			<word txt="nach" order="17" />
+			<word txt="seit" order="18" />
+			<word txt="um" order="19" />
+			<word txt="von" order="20" />
+			<word txt="vom" order="21" />
+			<word txt="mit" order="22" />
+			<word txt="ohne" order="23" />
+			<word txt="gegen" order="24" />
+			<word txt="anlässlich" order="25" />
+			<word txt="aufgrund" order="26" />
+			<word txt="bezüglich" order="27" />
+			<word txt="dank" order="28" />
+			<word txt="gemäß" order="29" />
+			<word txt="infolge" order="30" />
+			<word txt="laut" order="31" />
+			<word txt="mangels" order="32" />
+			<word txt="mittels" order="33" />
+			<word txt="seitens" order="34" />
+			<word txt="trotz" order="35" />
+			<word txt="ungeachtet" order="36" />
+			<word txt="wegen" order="37" />
+			<word txt="zufolge" order="38" />
+			<word txt="zwecks" order="39" />
+		</wordbag>
+	</wordtype>
+</grammar>
+</root>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<test>
+	<subjects>
+		<subject id="S1" name="Sample 1 sentence" />
+		<subject id="S3" name="Sample 3 sentences" />
+	</subjects>
+	<sentences>
+		<sentence subjectID="S3" txt="Who would have thought it possible that a tiny flower could preoccupy a person so completely that there simply wasn't room for any other thought. [/(Sophie Scholl)/]" />
+		<sentence subjectID="S3" txt="Prussia was not a country with an army, but an army with a country. [/(Mirabeau)/]" />
+		<sentence subjectID="S3" txt="When you start to look like your passport photo, you should go on holidays. [/(Ephraim Kishon)/]" />
+		
+		<sentence subjectID="S1" txt="As a rule, for information on the whereabouts of a certain street you have to tip five percent of the informant's age. [/(Ephraim Kishon)/]" />
+	</sentences>
+</test>

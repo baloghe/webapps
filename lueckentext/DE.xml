@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<test>
+	<subjects>
+		<subject id="SML" name="Sammlung 01" />
+		<subject id="SML2" name="Sammlung 02" />
+		<subject id="DOP1" name="Doppelkonjunktionen 1" />
+		<subject id="BRIEF" name="Brief - allgemein" />
+		<subject id="BRIEF1" name="Goethe - Karin" />
+		<subject id="BRIEF2" name="Goethe - Herrn Janosch" />
+		<subject id="SPB1" name="Sprachbausteine - Essgewohnheiten" />
+		<subject id="SPB2" name="Sprachbausteine - Digitale Apps" />
+		<subject id="SPB3" name="Sprachbausteine - Die richtige Kleidung im Beruf" />
+		<subject id="SPB4" name="Sprachbausteine - Roboter der Zukunft" />
+		<subject id="SPB5" name="Sprachbausteine - Kochbox" />
+		<subject id="SPB6" name="Sprachbausteine - Inklusion" />
+		<subject id="SPB7" name="Sprachbausteine - Einmischung" />
+		<subject id="SPB8" name="Sprachbausteine - Verkehrsmittel in Berlin" />
+		<subject id="KOUR" name="Gladwell - Getty Kouros" />
+		<subject id="PYT" name="Satz von Pythagoras" />
+		<subject id="DIG" name="Digital First" />
+		<subject id="SMT" name="Ole Siebrecht - Warum ich Smalltalk hasse (&lt;a href='https://ze.tt/regdichab-hey-na-warum-ich-smalltalk-hasse'&gt;link&lt;/a&gt;)" />
+		<subject id="ANTI" name="Anstrich des Bootes mit Antifouling" />
+		<subject id="KH1" name="Kishon - Schokolade auf Reisen" />
+		<subject id="KH2" name="Kishon - Der Kaktus im Silberrausch" />
+		<subject id="KH3" name="Kishon - Wie Amir das Schlafengehen erlernte" />
+		<subject id="KH4" name="Kishon - Ein Obelisk in jedem Rucksack 1" />
+		<subject id="KH5" name="Kishon - Ein Obelisk in jedem Rucksack 2" />
+		<subject id="KH6" name="Kishon - Ein Obelisk in jedem Rucksack 3" />
+		<subject id="KH7" name="Kishon - Ein Obelisk in jedem Rucksack 4" />
+		<subject id="KH8" name="Kishon - Schöner Regen heute, nicht wahr?" />
+		<subject id="WM1" name="Fußball WM 2018 - Staffel 1" />
+		<subject id="WM2" name="Fußball WM 2018 - Staffel 2" />
+		<subject id="LB1" name="Leserbrief allgemein" />
+		<subject id="LB2" name="Leserbrief Muster" />
+		<subject id="LB3" name="Zitaten aus Leserbriefen - 1" />
+		<subject id="LB4" name="Zitaten aus Leserbriefen - 2" />
+		<subject id="FRZ" name="Diskussion - Freizeit" />
+		<subject id="MSB" name="Richtiges Deutsch - Müssen / Sollen / Brauchen" />
+		<subject id="RD83" name="Richtiges Deutsch - 8/3 - bieten / beten / bitten" />
+		<subject id="RD96" name="Richtiges Deutsch - 9/6 - nicht einmal / sogar" />
+		<subject id="RD97" name="Richtiges Deutsch - 9/7 - nicht einmal / sogar" />
+		<subject id="RD98" name="Richtiges Deutsch - 9/8 - Ziel / Zweck" />
+		<subject id="ATU" name="Ausgrabung in Türkei - Klimawandel" />
+	</subjects>
+	<sentences>
+		<sentence subjectID="ATU" txt="Im Verlauf von wenigen Jahrzehnten kühlte das Wetter im [/Europa/] der Steinzeit vor mehr als [/8000/] Jahren ab." />
+		<sentence subjectID="ATU" txt="Möglicherweise hätte der Klimawandel sogar die Ausbreitung der Landwirtschaft nach [/Europa/] begünstigt, schreiben die Forscher." />
+		<sentence subjectID="ATU" txt="Dann untersuchten die Forscher, wie sich die klimatischen Veränderungen auf das Leben der Menschen ausgewirkt hatten." />
+		<sentence subjectID="ATU" txt="Die Analyse der organischen Rückstände deutet darauf hin, dass in der Anfangszeit der Kältephase die Zahl der Rinder sank." />
+		<sentence subjectID="ATU" txt="Und gleichzeitig mehr Ziegen und Schafe wurden gehalten, die besser mit Trockenheit zurechtkommen." />
+		<sentence subjectID="ATU" txt="Auch eine zunehmende Zahl von Schneidespuren deutet das Team als Zeichen einer effizienteren Verwertung des Viehs." />
+		<sentence subjectID="ATU" txt="Die Folgen kühlerer Wintertemperaturen sind ein erhöhter Bedarf an Nährstoffen für das Vieh." />
+		<sentence subjectID="ATU" txt="Dann benötigt das Vieh bis zu doppelt so viele Kalorien, um die normale Temperatur und die Funktionen des Körpers aufrechtzuerhalten." />
+		<sentence subjectID="ATU" txt="Das macht das Füttern während des Winters zu einer Herausforderung, weil die erhöhte Trockenheit im Sommer die landwirtschaftlichen Erträge senkt." />
+		<sentence subjectID="ATU" txt="Auch die Architektur der Stadt spiegelte den Autoren zufolge die klimatischen Veränderungen wider." />
+		<sentence subjectID="ATU" txt="Anfangs dominierten demnach große Gebäude mit vielen Räumen." />
+		<sentence subjectID="ATU" txt="Mit dem sich ändernden Klima setzten sich dann Häuser mit zentralen Wohnräumen durch, die von kleinen, zellenartigen Räumen umgeben waren." />
+		
+		<sentence subjectID="LB3" txt="Sehr geehrte Redaktion, mit Interesse habe ich Ihren Beitrag zur aktuellen Mißbrauchsdebatte gelesen." />
+		<sentence subjectID="LB3" txt="Eklatant falsch ist beispielsweise Ihre Darstellung der Rechtslage bezüglich 'eheähnlicher' Gemeinschaften." />
+		<sentence subjectID="LB3" txt="Warum Sie diese Argumente unreflektiert übernehmen, ist mir ein Rätsel." />
+		<sentence subjectID="LB3" txt="Die Putzbranche zeigt sehr gut, dass sich Deutschland, was die Sozialstandards betrifft, nicht vorwärts sondern zurück entwickelt." />
+		<sentence subjectID="LB3" txt="Denn das Bild vom gehetzten Arbeitnehmer, der sein Pensum kaum noch schaffen kann, findet sich bereits in [/Charly Chaplins/] Film [/'Moderne Zeiten'/]." />
+		<sentence subjectID="LB3" txt="Die Finanzspritze für die Wissenschaft ist gut angelegtes Geld." />
+		<sentence subjectID="LB3" txt="Schließlich fahren Investitionen in Bildung im Gegensatz zu Bankenhilfen eine dauerhafte Rendite ein." />
+		<sentence subjectID="LB3" txt="Allerdings ersetzen die bereit gestellten Mittel keine notwendigen Reformen." />
+		<sentence subjectID="LB3" txt="So bleibt das neue Studiensystem weiterhin ein Problem, das dringend nachgebessert werden muss, damit Deutschland im internationalen Vergleich nicht am Ende zweitklassig dasteht." />
+		<sentence subjectID="LB3" txt="Denn während in anderen Ländern wie zum Beispiel [/der Schweiz/] alle Studenten ihren Master machen können, ist hierzulande bereits für viele nach dem Bachelor Schluss!" />
+		
+		<sentence subjectID="LB4" txt="Die Empörung über [/Tschechiens/] Atom-Pläne ist zwar berechtigt, beinhaltet aber zumindest von politischer Seite auch eine gewisse Doppelmoral." />
+		<sentence subjectID="LB4" txt="Denn schließlich setzt der Freistaat Bayern auf die selbe Form der Energiegewinnung wie sein östlicher Nachbar." />
+		<sentence subjectID="LB4" txt="Der einzige Unterschied besteht lediglich darin, dass man für seinen radioaktiven Müll nicht aufkommt, sondern ihn möglichst weit weg transportiert wie etwa nach [/Gorleben/]." />
+		<sentence subjectID="LB4" txt="Glaubwürdigkeit setzt deshalb zunächst einmal voraus, selbst auf Kernenergie zu verzichten!" />
+		<sentence subjectID="LB4" txt="Mit großem Interesse verfolge ich seit vielen Wochen die Diskussion um die Ganztagesschule." />
+		<sentence subjectID="LB4" txt="Viele Experten und auch viele Eltern sprechen sich für dieses Modell aus." />
+		<sentence subjectID="LB4" txt="Aber niemand fragt eigentlich uns Schüler, was wir wollen." />
+		<sentence subjectID="LB4" txt="In Ihrer Ausgabe vom [/29.01.2011/] haben Sie über eine interessante Umfrage zum Thema [/'Hamburger kontra Banane'/] berichtet." />
+		<sentence subjectID="LB4" txt="Ich habe Ihren Artikel mit großem Interesse gelesen." />
+		<sentence subjectID="LB4" txt="Ich schreibe Ihnen jetzt, weil ich gerne meine Meinung zu dieser Frage äußern möchte." />
+		<sentence subjectID="LB4" txt="Ich bedanke mich für Ihre Aufmerksamkeit und wünsche Ihnen auch weiterhin viele interessante Artikel." />
+		
+		<sentence subjectID="RD83" txt="Ich bat ihn um Entschuldigung." />
+		<sentence subjectID="RD83" txt="Wir boten ihm unsere Hilfe an." />
+		<sentence subjectID="RD83" txt="Die Hausfrau bat die Gäste zu Tisch." />
+		<sentence subjectID="RD83" txt="Der Kaufmann bot seine Waren an." />
+		<sentence subjectID="RD83" txt="Der Polizist bat den Passanten um seinen Personalausweis." />
+		<sentence subjectID="RD83" txt="Die neue Regierung verbot den Wucher." />
+		<sentence subjectID="RD83" txt="Der alte Mann betete den ganzen Tag." />
+		<sentence subjectID="RD83" txt="Die Klugheit gebot, hier vorsichtig zu sein." />
+		<sentence subjectID="RD83" txt="Er bat mich, zu ihm zu kommen." />
+		<sentence subjectID="RD83" txt="Ich möchte dich um etwas bitten." />
+		<sentence subjectID="RD83" txt="Würdest du mir bitte ausführlich erzählen, was für Pläne du hättest?" />
+		<sentence subjectID="RD83" txt="Ich wollte meinen deutschen Freund besuchen." />
+		<sentence subjectID="RD83" txt="Wärst du auch gerne mit uns mitgekommen?" />
+		<sentence subjectID="RD83" txt="Ich wollte mit dem Auto zum Bahnhof fahren, aber ich bekam kein Taxi." />
+		<sentence subjectID="RD83" txt="Zufällig begegnete ich [/Franz/], der mich in seinem Wagen zum Bahnhof fuhr." />
+		<sentence subjectID="RD83" txt="Auch mich hat mein Freund mitgebracht." />
+		
+		<sentence subjectID="RD98" txt="Er traf das Ziel leicht." />
+		<sentence subjectID="RD98" txt="Das Ziel seiner Reise war [/Berlin/]." />
+		<sentence subjectID="RD98" txt="Der Ungarische Läufer ging als erster durch das Ziel." />
+		<sentence subjectID="RD98" txt="Ein Auto ist das Ziel meiner Wünsche." />
+		<sentence subjectID="RD98" txt="Er setzt sich zu hohe Ziele." />
+		<sentence subjectID="RD98" txt="Dieser Versuch führte nicht zum Ziel." />
+		<sentence subjectID="RD98" txt="Er verfolgt damit einen gewissen Zweck." />
+		<sentence subjectID="RD98" txt="Es hat keinen Zweck, sich darüber zu streiten." />
+		<sentence subjectID="RD98" txt="Zu welchem Zweck machst du das?" />
+		<sentence subjectID="RD98" txt="Der Zweck heiligt die Mittel." />
+	
+		<sentence subjectID="RD96" txt="Nicht einmal das weißt du?" />
+		<sentence subjectID="RD96" txt="Ich war noch nicht einmal in [/Debrecen/]." />
+		<sentence subjectID="RD96" txt="Er spricht nicht einmal seine Muttersprache richtig." />
+		<sentence subjectID="RD96" txt="Er ist so schwach, dass er nicht einmal laufen kann." />
+		<sentence subjectID="RD96" txt="Er beeilte sich so sehr, dass er sogar stolperte." />
+		<sentence subjectID="RD96" txt="Ich habe nicht einmal ein Glas Wasser bei ihm bekommen." />
+		<sentence subjectID="RD96" txt="Es ist sogar nachts sehr warm." />
+		<sentence subjectID="RD96" txt="Man hört sogar auf der Straße, dass das Radio spielt." />
+		<sentence subjectID="RD96" txt="Selbst die Bitten eines Freundes können ihn nicht rühren." />
+		<sentence subjectID="RD96" txt="Selbst wenn er gekommen wäre, hätte er es nicht bereut." />
+		
+		<sentence subjectID="RD97" txt="Der Autobus verkehrt heute nicht mehr." />
+		<sentence subjectID="RD97" txt="Ich habe keine Kopfschmerzen mehr." />
+		<sentence subjectID="RD97" txt="Im [/Oktober/] ist es nicht mehr warm." />
+		<sentence subjectID="RD97" txt="Für [/Faust/] gab es nichts mehr Neues auf der Welt." />
+		<sentence subjectID="RD97" txt="Bist du nicht mehr müde?" />
+		<sentence subjectID="RD97" txt="Im Frühling kann man keine Äpfel mehr bekommen." />
+		<sentence subjectID="RD97" txt="Wenn es keine Kriege mehr geben wird, werden die Menschen glücklich sein." />
+		<sentence subjectID="RD97" txt="Den Brief schicke ich heute nicht mehr ab." />
+		<sentence subjectID="RD97" txt="Erinnerst du dich nicht mehr, wann wir bei ihnen waren?" />
+		<sentence subjectID="RD97" txt="Heute kommen sie bestimmt nicht mehr." />
+		<sentence subjectID="RD97" txt="Selbst [/Peter/] würde ihn nicht mehr erkennen, wenn er ihn sähe." />
+		<sentence subjectID="RD97" txt="In diesem Jahre fahre ich nicht mehr weg." />
+		<sentence subjectID="RD97" txt="Danke, ich trinke nicht mehr." />
+		<sentence subjectID="RD97" txt="Als ich hinkam, war niemand mehr da." />
+		<sentence subjectID="RD97" txt="Ich kam erst nach Hause, als es nicht mehr regnete." />
+		
+		<sentence subjectID="MSB" txt="Woran soll ich mich dann halten?" />
+		<sentence subjectID="MSB" txt="Soll ich das auch übersetzen?" />
+		<sentence subjectID="MSB" txt="Soll ich das Gedicht laut lesen?" />
+		<sentence subjectID="MSB" txt="Soll ich dich verhauen?" />
+		<sentence subjectID="MSB" txt="Wir werden uns auf einige Grundbedeutungen beschränken müssen." />
+		<sentence subjectID="MSB" txt="Du sollst deine Mutter ehren!" />
+		<sentence subjectID="MSB" txt="Ich musste mich beim Militär melden." />
+		<sentence subjectID="MSB" txt="Ich werde dir nun etwas beibringen, was ich eigentlich nicht sollte." />
+		<sentence subjectID="MSB" txt="Heute sollte sich jeder über die Aufgaben der Friedensbewegung im klaren sein." />
+		<sentence subjectID="MSB" txt="Der Teufel soll ihn holen!" />
+		<sentence subjectID="MSB" txt="Sollten sich die Provokationen fortsetzen, so werden wir gezwungen sein, Gegenmaßnahmen zu ergreifen." />
+		<sentence subjectID="MSB" txt="Sollte Krebs wirklich so unheilbar sein, wie es oft behauptet wird?" />
+		<sentence subjectID="MSB" txt="Er soll klüger sein, als er aussieht." />
+		<sentence subjectID="MSB" txt="Franz sagte, Karl soll sich die Sache sehr zu Herzen genommen haben." />
+		<sentence subjectID="MSB" txt="In einem Weltraumschiff zu fliegen, muss keine leichte Sache sein." />
+		<sentence subjectID="MSB" txt="Ich muss weg." />
+		<sentence subjectID="MSB" txt="Das Auto musste anhalten, um einen Zusammenstoß zu vermeiden." />
+		<sentence subjectID="MSB" txt="Um die fremde Sprache zu beherrschen, muss man viel lernen." />
+		<sentence subjectID="MSB" txt="Er sagt nicht die Wahrheit, das muss sich irgendwie anders zugetragen haben." />
+		<sentence subjectID="MSB" txt="Karl bittet euch, ihr sollt um 10 Uhr wiederkommen." />
+		<sentence subjectID="MSB" txt="Er bekam die Anweisung, er soll sich bei der Polizie melden." />
+		<sentence subjectID="MSB" txt="Du sollst nicht töten!" />
+		<sentence subjectID="MSB" txt="Soll ich gehen?" />
+		<sentence subjectID="MSB" txt="Was soll das bedeuten?" />
+		<sentence subjectID="MSB" txt="In der Türkei soll wieder ein schweres Erdbeben gewesen sein." />
+		<sentence subjectID="MSB" txt="Er sollte sich schämen, so frech zu sein!" />
+		<sentence subjectID="MSB" txt="Sollte er sich nicht bessern, so wird es schlimme Folge haben." />
+		<sentence subjectID="MSB" txt="Sollte er wirklich vergessen haben, dass ich heute auf ihn warte?" />
+		<sentence subjectID="MSB" txt="Jetzt brauche ich keine Angst mehr zu haben?" />
+		<sentence subjectID="MSB" txt="Du brauchst keine Angst zu haben." />
+		<sentence subjectID="MSB" txt="Du brauchst es dir nicht so sehr zu Herzen nehmen." />
+		<sentence subjectID="MSB" txt="Ich brauche morgen viel Geld." />
+		<sentence subjectID="MSB" txt="Du brauchst dich nicht gleich aufzuregen, wenn dir etwas nicht gelingt." />
+		<sentence subjectID="MSB" txt="Du brauchst dir darüber keine Gedanken zu machen." />
+		<sentence subjectID="MSB" txt="Sie brauchen mich nicht darauf aufmerksam zu machen, ich weiß es ja selbst." />
+		<sentence subjectID="MSB" txt="Die Medizin ist vor Gebrauch zu schütteln." />
+		
+		<sentence subjectID="FRZ" txt="Guten Tag, mein Name ist [/Sophia/]. Sollen wir uns duzen oder siezen?" />
+		<sentence subjectID="FRZ" txt="Hallo, ich bin [/Maya/]. Wir können uns gerne duzen." />
+		<sentence subjectID="FRZ" txt="Also, wir sollen für einen Beitrag für eine Computerzeitschrift ein Foto auswählen." />
+		<sentence subjectID="FRZ" txt="Ich finde das erste Foto am besten, weil es sehr gut zeigt, wie viele Dinge man mit den modernen Medien machen kann, z.B. Musik hören, auf Facebook chatten, Mails schicken usw. Was meinst du dazu?" />
+		<sentence subjectID="FRZ" txt="Nein, diese Foto finde ich gar nicht passend, denn es zeigt gar keinen Menschen. Und so kann der Leser glauben, dass die Technologie wichtiger als der Mensch ist." />
+		<sentence subjectID="FRZ" txt="Das ist richtig, aber das Bild hat so schöne Farben. Das finden die Leser bestimmt toll." />
+		<sentence subjectID="FRZ" txt="Ja, vielleicht, aber ich halte das Foto mit den zwei Frauen, die ein Selfie machen, für geeigneter. Es gefällt den Lesern sicher, weil es mit ihrem Alltag zu tun hat." />
+		<sentence subjectID="FRZ" txt="Da hast du Recht. Und dieses Foto hat auch schöne Farben und vermittelt eine positive Atmosphäre. Die Frage ist nur, ob es richtig ist, dass wir damit den Selfie-Trend unterstützen. Ich finde nämlich, dass viele Leute das total übertreiben." />
+		<sentence subjectID="FRZ" txt="Stimmt, aber es ist auf jeden Fall besser als das erste Foto. Und es gibt die Realität wieder. Was sagst du zu dem dritten Foto? Wie findest du das? Ich glaube, das ist eine schöne Alltagssituation." />
+		<sentence subjectID="FRZ" txt="Naja, das finde ich ein bisschen langweilig und von den Farben her sehr melancholisch. Es zeigt mehr die negativen Seiten der modernen Medien, dass die Menschen immer weniger persönlich miteinander kommunizieren." />
+		<sentence subjectID="FRZ" txt="Da stimme ich nicht zu, denn diese Situation sieht man jeden Tag." />
+		<sentence subjectID="FRZ" txt="Ja vielleicht, aber trotzdem finde ich das Bild dunkel." />
+		<sentence subjectID="FRZ" txt="Da stimme ich zu. Und es steht wie bei Foto eins die Technologie zu sehr im Vordergrund. Also, ich glaube, Foto [/2/] ist ein guter Kompromiss. Was meinst du?" />
+		<sentence subjectID="FRZ" txt="Ja, ich denke auch, dass Foto [/2/] am besten passt. Also wir entscheiden uns für Foto 2." />
+	
+		<sentence subjectID="LB2" txt="Sehr geehrte Redaktion," />
+		<sentence subjectID="LB2" txt="in Ihrem Beitrag vom [/26.05.2014/], der sich mit dem Fremdsprachenangebot an unseren Schulen beschäftigt, zeigen Sie exemplarisch auf, dass der Französisch- und Spanischunterricht an deutschen Grundschulen immer mehr vom Englischen verdrängt und abgelöst wird, wodurch das Englisch alleinige und erste Fremdsprache bleibt." />
+		<sentence subjectID="LB2" txt="Ich, als Spanischlehrer an einem Gymnasium, kann diese fatale Entwicklung aus meiner langjährigen Erfahrung bestätigen und erachte sie als folgenschwer." />
+		<sentence subjectID="LB2" txt="Es ist ein Fehler, die Schüler erst in der Oberstufe mit der französischen oder spanischen Sprache vertraut zu machen." />
+		<sentence subjectID="LB2" txt="Die Folge ist, dass den Schülern die Zeit fehlt, die Kenntnisse in eben diesen Sprachen zu erweitern." />
+		<sentence subjectID="LB2" txt="Weiterhin ist es ein Fehler, anzunehmen, dass das Englische viel leichter zu erlernen sei." />
+		<sentence subjectID="LB2" txt="Zwar ist die Einstiegshürde ins Französische ein wenig höher, doch betrachten wir den gesamten Wortschatz beider Sprachen, können wir feststellen, dass das Englische weder leichter, noch das Französische umfangreicher wäre." />
+		<sentence subjectID="LB2" txt="Warum das Englische also bevorzugen und andere Sprachen im Grundschulbereich vollkommen außer Acht lassen?" />
+		<sentence subjectID="LB2" txt="Setzen wir uns also gemeinsam dafür ein, die Sprachvielfalt an den Schulen zu stärken." />
+		<sentence subjectID="LB2" txt="Mit freundlichen Grüßen" />
+		<sentence subjectID="LB1" txt="Stellen Sie deutlich klar, auf welchen Teil des jeweiligen Artikels Sie sich beziehen." />
+		<sentence subjectID="LB1" txt="Benennen Sie korrekt, an welcher Stelle und zu welchem Zeitpunkt Sie das Ganze gefunden haben." />
+		<sentence subjectID="LB1" txt="Verweisen Sie außerdem darauf, welche Rolle Sie selbst einnehmen." />
+		<sentence subjectID="LB1" txt="Sind Sie ein Experte auf dem jeweiligen Gebiet oder sind Sie unter Umständen selbst von der Thematik betroffen?" />
+		<sentence subjectID="LB1" txt="Achten Sie grundsätzlich darauf, die eigenen Argumente logisch und sachlich zu formulieren." />
+		<sentence subjectID="LB1" txt="Dies erhöht die Chance, dass das Ganze abgedruckt wird und wirkt auch für andere nachvollziehbarer." />
+		<sentence subjectID="LB1" txt="Machen Sie ihre Argumente an eindeutigen Beispielen fest und greifen Sie außerdem neue Aspekte der Thematik auf, die mitunter im ursprünglichen Beitrag nicht beleuchtet wurden." />
+		<sentence subjectID="LB1" txt="Stützen Sie nun Ihren Standpunkt oder Ihre These mit einem Argument, entkräften Sie möglichst die mögliche Argumentation der Gegenseite." />
+		<sentence subjectID="LB1" txt="Untermauern Sie Ihre These durch ein weiteres Argument und machen Sie dieses für eine größere Bildhaftigkeit an einem Beispiel aus Ihrer Erfahrung fest." />
+		<sentence subjectID="LB1" txt="Machen Sie erneut deutlich, worauf es Ihnen ankommt und schlussfolgern Sie, was sich aus ihrer Argumentation ableiten lässt." />
+		<sentence subjectID="LB1" txt="Der textbezogene Leserbrief nimmt Bezug auf einen Artikel und greift bestimmte Abschnitte oder Meinungen auf, um diese zu kommentieren." />
+		<sentence subjectID="LB1" txt="Er ist somit eine Stellungnahme zu einem Sachverhalt oder einer primären Äußerung über ein Problem oder eine Zeiterscheinung." />
+		
+		<sentence subjectID="WM1" txt="Offensichtlich hat auch beim Fotografen von [/Reuters/] das Interesse am Spiel deutlich nachgelassen." />
+		<sentence subjectID="WM1" txt="Ich würde kein Veto einlegen, wenn der Rest der Partie in der Disziplin Sitzfußball fortgeführt werden würde." />
+		<sentence subjectID="WM1" txt="Alle, die Torschützenkönig werden wollen, bitte mal aufzeigen." />
+		<sentence subjectID="WM1" txt="Wer den Lauf der Welt kennt, weiß aber, dass die zynischen europäischen Eroberer am Ende trotzdem mit den Grabschätzen nach Hause gehen könnten." />
+		<sentence subjectID="WM1" txt="Die Dänen stehen inzwischen stoisch im Strafraum und erwarten den nächsten peruanischen Angriff wie die Männer der Night's Watch." />
+		<sentence subjectID="WM1" txt="Dafür, dass Peru die wohl körperlich kleinste Mannschaft der westlichen Hemisphäre ist, gewinnen die Kollegen inzwischen ganz schön viele Kopfballduelle." />
+		<sentence subjectID="WM1" txt="Wir unterstellen [/Costa/] bei der Aktion gegen [/Pepe/] keine Absicht, auch wenn der Ellbogen natürlich nichts am Hals des Gegenspielers zu suchen hat." />
+		<sentence subjectID="WM1" txt="Wer hätte gedacht, dass [/Loris Karius/] ein derartiger Influencer ist?" />
+		<sentence subjectID="WM1" txt="[/Diego Costa/] und [/Pepe/], die sicher auch an einer gepflegten Runde [/MMA/] Spaß hätten, rammen mal wieder ineinander." />
+		<sentence subjectID="WM1" txt="Wir scherzen schon, reden vom Ausgleich, während sich [/Cristiano Ronaldo/] die Hose über seinen rechten Schenkel zieht." />
+		<sentence subjectID="WM1" txt="Ein Schuss aus der Kategorie: Wer kann, der kann." />
+		<sentence subjectID="WM1" txt="Der Joker ist zur Stelle, lässt zwei Gegenspieler mit einem leichten Lupfer ins Leere rutschen und schießt mit dem linken Fuß aus [/sieben/] Metern unter die Latte." />
+		<sentence subjectID="WM1" txt="Die zweite Hälfte hat das Potenzial, zum Schrecken all derer zu werden, die den Fußball jemals geliebt haben." />
+		<sentence subjectID="WM1" txt="[/Golovin/] zirkelt einen Freistoß aus [/22/] Metern rechts an der Mauer vorbei ins Netz." />
+		<sentence subjectID="WM1" txt="Die Partie läuft noch, aber der eingewechselte [/Roberto Firmino/] weiß schon, dass heute vieles hätte besser laufen müssen für sein Team." />
+		<sentence subjectID="WM1" txt="Wenn es bei diesem Ergebnis bliebe, könnte Deutschland die einzige von [/14/] europäischen Mannschaften sein, die ihr Auftaktspiel bei dieser [/WM/] verliert." />
+		
+		<sentence subjectID="WM2" txt="[/Batshuayi/] hätte fünf Treffer machen können, vielleicht sogar machen müssen und damit die alleinige Führung in der Torschützenliste übernommen." />
+		<sentence subjectID="WM2" txt="Wir haben Zeit für derartige Fachdiskussionen, weil auf dem Feld gerade nichts besonders Üppiges passiert." />
+		<sentence subjectID="WM2" txt="[/Stojkovic/] wirkt überrascht, hat den Ball aber vermutlich erst spät gesehen." />
+		<sentence subjectID="WM2" txt="Vielleicht hat [/Brych/] seine Kopfhörer einfach auf lautlos gestellt." />
+		<sentence subjectID="WM2" txt="Nach dem zweiköpfigen Adler hat [/Xherdan Shaqiri/] auch noch den stiernackigen Brüllaffen präsentiert." />
+		<sentence subjectID="WM2" txt="Fragen Sie mich aber bitte nicht, zu welchem Land dieses Wappentier gehört." />
+		<sentence subjectID="WM2" txt="Aus meiner Sicht kann es losgehen." />
+		<sentence subjectID="WM2" txt="Man kann über die deutschen Fans ja sagen, was man will, aber optisch ist das immer ein Genuss." />
+		<sentence subjectID="WM2" txt="Warum ist es nur so leer hier? Ich komme nicht darauf." />
+		<sentence subjectID="WM2" txt="[/Gündogan/] macht sich warm, falls Rudy noch zwei bis drei Liter Blut verlieren sollte." />
+		<sentence subjectID="WM2" txt="Wie gewohnt bei [/Ospina/] schließt sich der Aktion noch eine Behandlungspause an." />
+		<sentence subjectID="WM2" txt="Bei dieser [/WM/] ist schließlich schon böses Angucken mit Elfmeter bestraft worden." />
+		<sentence subjectID="WM2" txt="Der Superstar schießt den Ball in die Mauer, erledigt damit vielleicht die ein oder andere Gehirnzelle eines Gegenspielers, aber eine Torchance bringt dieser missglückte Freistoß nicht mit sich." />
+		<sentence subjectID="WM2" txt="Der Stürmer versucht es dann wie [/Ronaldo/], schießt aus [/26/] Metern direkt auf Torhüter [/Muslera/], der sich schon hätte auflösen müssen, um diesen zentralen Schuss nicht zu halten." />
+		
+		<sentence subjectID="KH8" txt="Unter wohlerzogenen Leuten ist es üblich, eine Frage nicht unbeantwortet zu lassen." />
+		<sentence subjectID="KH8" txt="Der Leiter des Büros geleitete mich am Ende zur Tür des hochgewölbten, mit dunklem Eichenholz getäfelten Raums, dessen Entstehung nachweisbar auf das Jahr [/1693/] zurückgeht." />
+		<sentence subjectID="KH8" txt="Um keinen Preis, antwortete [/MacFarland/], ergriff meinen Arm und drehte ihn mit geübtem Judo-Griff in Richtung Türe." />
+		<sentence subjectID="KH8" txt="Mein linker Ärmel war während dieses Austausches von Höflichkeiten in Fetzen gegangen." />
+		<sentence subjectID="KH8" txt="Ich bückte mich, ohne ihn aus den Augen zu lassen, und griff nach dem Schürhaken." />
+		<sentence subjectID="KH8" txt="In jedem anderen Land wären ihm schon nach kurzer Zeit sämtliche Zähne eingeschlagen worden." />
+		<sentence subjectID="KH8" txt="Die wohlerzogenen Engländer begnügten sich damit, seine Anstrengungen stumm zu beobachten." />
+		<sentence subjectID="KH8" txt="Sie fanden es unter ihrer Würde, in irgendeiner Form einzugreifen." />
+		<sentence subjectID="KH8" txt="Das kümmert mich nicht, fauchte der Angeredete und gebärdete sich weiterhin wie ein wildgewordener Stier." />
+		<sentence subjectID="KH8" txt="Umso weniger, als der Zug nach [/Birmingham/] fuhr, also genau in die entgegengesetzte Richtung von [/Southampton/]." />
+		<sentence subjectID="KH8" txt="Meine freigebliebene Hand verfing sich aber in einem fremden Büstenhalter, so dass ich alle weiteren Nachforschungen einstellen musste." />
+		<sentence subjectID="KH8" txt="Unsere Wangen klatschten leise aneinander und blieben fortan in Schmiegeposition, als wären wir ein argentinisches Tango-Tanzpaar." />
+		<sentence subjectID="KH8" txt="Die Verbindungswege zu meiner Frau waren völlig zusammengebrochen." />
+		<sentence subjectID="KH8" txt="An der nächsten Haltestelle verließ einer der Fahrgäste den bisher von ihm gehaltenen Posten auf meinem Fuß und stellte dadurch einen Teil meiner Manövrierfähigkeit wieder her." />
+		<sentence subjectID="KH8" txt="Irgendwo in [/London/], in einem Paar wildfremder Hosen, ruhte mein Taschentuch." />
+		
+		<sentence subjectID="KH7" txt="Ohne zu prahlen, darf ich sagen, dass ich mich schon wiederholt in lebensgefährlichen Situationen befunden habe."/>
+		<sentence subjectID="KH7" txt="Vor meinem geistigen Auge zogen blitzartig die schmerzlichsten Erinnerungen an meine glückliche Kindheit vorbei."/>
+		<sentence subjectID="KH7" txt="Sie schlang ihre Fangarme um mich."/>
+		<sentence subjectID="KH7" txt="Inmitten einer feindlichen Umwelt ist der Mensch einsam und ganz auf sich gestellt."/>
+		<sentence subjectID="KH7" txt="Krampfhaft versuchte ich, ihrem Klammergriff zu entrinnen."/>
+		<sentence subjectID="KH7" txt="Aber das war nur Wasser auf ihre klapprige Mühle."/>
+		<sentence subjectID="KH7" txt="Eine detaillierte Schilderung des Vorgangs möchte ich mir ersparen."/>
+		<sentence subjectID="KH7" txt="Genug daran, dass Großmutti meinen heftig widerstrebenden Kopf gegen ihr Dekolleté presste."/>
+		<sentence subjectID="KH7" txt="Ich musste gegen den Hustenreiz ankämpfen, den die aufsteigenden Puderwolken mir verursachten."/>
+		<sentence subjectID="KH7" txt="Warum lässt du einen Narren aus dir machen?"/>
+		
+		<sentence subjectID="KH6" txt="Seine Überzeugung von der Überlegenheit [/Englands/] über die Völkerschaften des Kontinents löst sich in nichts auf."/>
+		<sentence subjectID="KH6" txt="Er sieht die Welt fortan mit anderen Augen."/>
+		<sentence subjectID="KH6" txt="Das Gedanken an die langen Stangen französischen Weißbrots, die man im Straßenverkehr an beiden Enden mit kleinen roten Flaggen versehen muss, treibt mir die Tränen in die Augen."/>
+		<sentence subjectID="KH6" txt="Es war ein Niemandstisch im Grenzgebiet zwischen zwei Großmächten."/>
+		<sentence subjectID="KH6" txt="Es war ein verlassener Vorposten am Rand der Wüste, wo nachts die Schakale heulen und höchstens dann und wann ein Atomphysiker auftaucht."/>
+		<sentence subjectID="KH6" txt="Instinktiv sah ich unter den Tisch, ob dort nicht vielleicht ein paar Skelette lägen."/>
+		<sentence subjectID="KH6" txt="Der Hunger trieb mich zur Verzweiflung."/>
+		<sentence subjectID="KH6" txt="Drei klassische Kellner tanzten für mich ein klassisches Bedienungsballett."/>
+		<sentence subjectID="KH6" txt="Ich überlegte sogar, ob ich ihm meine neue Zufallsbekanntschaft nicht mitbringen sollte."/>
+		<sentence subjectID="KH6" txt="Aber sie zeigte kein Interesse daran und setzte ihren Abendspaziergang fort."/>
+		
+		<sentence subjectID="KH5" txt="Im übrigen sind nicht die Engländer, wie man allgemein annimmt, die wahren Meister im Distanzhalten, sondern die Franzosen."/>
+		<sentence subjectID="KH5" txt="Ausländer versicherten mir, dass es in der glorreichen Geschichte des Landes keinen Präzedenzfall für eine solche Einladung gibt."/>
+		<sentence subjectID="KH5" txt="Noch nie hat ein Ausländer die Wohnung eines Franzosen betreten, es sei denn, um die Fenster zu waschen."/>
+		<sentence subjectID="KH5" txt="Es handelte sich ganz offenbar um eine einmalige Naturerscheinung."/>
+		<sentence subjectID="KH5" txt="Ich saß neben einem älteren Herrn, der ununterbrochen wissen wollte, was zum Teufel denn eigentlich auf der Bühne los sei."/>
+		<sentence subjectID="KH5" txt="Monsieur Rapue teilte mir daraufhin mit, dass auch er, oder genauer gesagt sein Großvater, gegen die Preußen gekämpft hätte."/>
+		<sentence subjectID="KH5" txt="Gewiss, Napoleon trägt mit Recht den stolzen Beinamen 'der Adler', aber ich habe auch für Spatzen etwas übrig."/>
+		<sentence subjectID="KH5" txt="Um dem Gespräch eine Wendung zu geben, bot ich einigen zunächststehenden Herrn von meinen Zigaretten an."/>
+		<sentence subjectID="KH5" txt="Sie kehrten mir indigniert den Rücken."/>
+		<sentence subjectID="KH5" txt="Er sah so zufrieden aus, als hätte er gerade die französische Flotte vernichtet."/>
+		
+		<sentence subjectID="KH4" txt="Man stellt mit Schrecken fest, dass man vom Französischlehrer schmählich betrogen wurde."/>
+		<sentence subjectID="KH4" txt="Einmal hatte ich in einem Lebensmittelgeschäft einen Einkauf getätigt und fragte nach der Höhe der Rechnung."/>
+		<sentence subjectID="KH4" txt="Ich bat ihn durch Worte und Gesten um eine langsamere Wiederholung."/>
+		<sentence subjectID="KH4" txt="Ferner riet uns unser Freund, bei wichtigen Verhandlungen eine Zigarette lässig im Mundwinkel baumeln zu lassen."/>
+		<sentence subjectID="KH4" txt="Weil es nicht nur typisch französisch aussähe, sondern auch gewisse Unebenheiten unserer Aussprache camouflieren würde."/>
+		<sentence subjectID="KH4" txt="Unerforschlich jedoch ist Gottes Ratschluss."/>
+		<sentence subjectID="KH4" txt="Wenn das ein israelischer Chauffeur gewagt hätte, würde es gleich wieder heißen, dass so etwas nur in Israel möglich ist."/>
+		
+		<sentence subjectID="SMT" txt="Du läufst eine Straße entlang, den Blick fest aufs Smartphone gerichtet, um ja niemandem direkt in die Augen gucken zu müssen."/>
+		<sentence subjectID="SMT" txt="Wie wir spätestens seit Harry Potter und die Kammer des Schreckens wissen, kann Augenkontakt tödlich sein."/>
+		<sentence subjectID="SMT" txt="Für mich ist schlechter Smalltalk vergeudete Lebenszeit, die ich sinnvoller hätte nutzen können."/>
+		<sentence subjectID="SMT" txt="Wahrscheinlich ist Smalltalk eine Typfrage und ich bin einfach nicht dafür gemacht."/>
+		<sentence subjectID="SMT" txt="Vielleicht bin ich aber auch einfach nur zu misanthropisch für sowas."/>
+		<sentence subjectID="SMT" txt="Ich führe lieber gute, lange Gespräche, mit netten, interessanten Menschen."/>
+		<sentence subjectID="SMT" txt="Nehme mir Zeit für diese Gespräche und im Nachhinein auch etwas daraus mit."/>
+		<sentence subjectID="SMT" txt="Denn sind wir doch mal ganz ehrlich: Alex, du interessierst dich einen Scheiß für mich."/>
+		<sentence subjectID="SMT" txt="Von daher ist es sowieso mehr als erstaunlich, dass ich dich überhaupt noch erkenne, geschweige denn, dich einordnen kann."/>
+		<sentence subjectID="SMT" txt="Immer wieder kommt es dadurch zu diesen unangenehmen Situationen, in denen man einer Person begegnet und auf einmal diesen Zwang verspürt, stehen zu bleiben."/>
+		<sentence subjectID="SMT" txt="Alex, bitte sei mir nicht böse, aber nächstes Mal nicken wir uns einfach nett zu und gehen weiter, einverstanden?"/>
+		
+		<sentence subjectID="ANTI" txt="In diesem Film wird gezeigt, wie man Boot mit einem Antifouling Anstrich versehen wird."/>
+		<sentence subjectID="ANTI" txt="Die Antifouling wird in einer Dose mit einer Plastikkappe geliefert, in der sich ein Beutel mit feinem Kupferstaub befindet."/>
+		<sentence subjectID="ANTI" txt="Vor dem Anstrich ist das Pulver mit der Flüssigkeit in der Dose zu vermengen."/>
+		<sentence subjectID="ANTI" txt="Im Film sieht man, wie ich es mit bloßen Händen mache. Das ist falsch. "/>
+		<sentence subjectID="ANTI" txt="Man sollt auf jeden Fall Handschuhe tragen, welche die Haut vor einem Kontakt mit den Substanzen schützen."/>
+		<sentence subjectID="ANTI" txt="Versuche im vergangenen Jahr haben gezeigt, dass es sinnlos ist, dieses Mittel mit einem Pinsel aufzutragen."/>
+		<sentence subjectID="ANTI" txt="Das ideale Werkzeug ist eine dünne Rolle aus Schaumstoff, mit der sich das Antifouling rasch und zügig auf dem Rumpf verstreichen lässt."/>
+		<sentence subjectID="ANTI" txt="Die Vorbereitung des Rumpfes ist einfach."/>
+		<sentence subjectID="ANTI" txt="Jedes Jahr, direkt nach dem herausholen aus dem Wasser, wird der alljährlich mit Antifouling behandelte Rumpf gründlich mit einem Hochdruckreiniger abgesprüht."/>
+		<sentence subjectID="ANTI" txt="Bis auf wenige Stellen ist er danach sauber."/>
+		<sentence subjectID="ANTI" txt="Im Frühling, vor dem Auftragen eines frischen Antifouling, wird der Rumpf lediglich mit feuchten Lappen mit einer Spiritus Wasser Mischung abgewischt."/>
+		<sentence subjectID="ANTI" txt="Da gibt es nichts zu schleifen; schließlich wollen wir nicht jedes Jahr eine dünne Schicht von unserem Rumpf abtragen."/>
+		<sentence subjectID="ANTI" txt="Danach glänzt das Unterwasserschiff des Bootes Kupferfarben. Nach einigen Tagen im Wasser ist der Anstrich bleigrau."/>
+		
+		<sentence subjectID="KH1" txt="Es läutet an der Tür."/>
+		<sentence subjectID="KH1" txt="Wir sind tief gerührt, und Benzion Ziegler schmunzelt selbstgefällig."/>
+		<sentence subjectID="KH1" txt="Wir legten sie sofort in die Abteilung [/'Diverser Pofel'/]."/>
+		<sentence subjectID="KH1" txt="Mit einem Mal befiel die ganze Familie ein unwiderstehliches Verlangen nach Schokolade, das nur durch Schokolade zu befriedigen war."/>
+		<sentence subjectID="KH1" txt="Die Schachtel enthielt ein paar bräunliche Kieselsteine mit leichtem Moosbelag."/>
+		<sentence subjectID="KH1" txt="Wir riefen den guten Freund an und zogen ihn derb zur Verantwortung."/>
+		<sentence subjectID="KH1" txt="Ingenieur [/Glück/] hatte die Schachtel vor vier Jahren von seiner Schwägerin bekommen, als ihm Zwillinge geboren wurden."/>
+		<sentence subjectID="KH1" txt="Die Schwägerin ihrerseits erinnerte sich noch ganz deutlich an den Namen des Spenders."/>
+		<sentence subjectID="KH1" txt="Da das betreffende Fach unseres Geschenkkastens gerade leer war, mussten wir blutenden Herzens die Pralinenschachtel opfern."/>
+		<sentence subjectID="KH1" txt="Hiermit geben wir allen bekannt, dass die Reise der Geschenkpralinenschachtel zu Ende ist."/>
+		
+		<sentence subjectID="KH2" txt="Ich wartete gar nicht ab, bis der erste Belag vollkommen getrocknet war."/>
+		<sentence subjectID="KH2" txt="Zufolge der Gebrauchsanweisung dürfte man nämlich erst dann die zweite Schicht auflegen."/>
+		<sentence subjectID="KH2" txt="Ich legte sie, um sicher zu gehen, sofort auf, und die dritte obendrein."/>
+		<sentence subjectID="KH2" txt="Ich begann Umschau zu halten, ob nicht noch andere Gegenstände in unserer Wohnung eine Verschönerung nötig hätten."/>
+		<sentence subjectID="KH2" txt="Dann wollte ich aufhören, denn ich hatte das Gefühl, ein wenig zu weit zu gehen."/>
+		<sentence subjectID="KH2" txt="Nachher hätte ich schwören mögen, es wäre eine Aluminiumleiter, obwohl ich doch ganz genau wusste, dass es eine gewöhnliche hölzerne Leiter war."/>
+		<sentence subjectID="KH2" txt="Zu meiner Freude entdeckte ich jedoch, dass der Teppich eine außergewöhnliche Saugfähigkeit für Silberlack besaß."/>
+		<sentence subjectID="KH2" txt="Vor Seligkeit taumelnd, begab ich mich in den Garten, wo ich die ersten Silbernelken züchtete."/>
+		<sentence subjectID="KH2" txt="Mit knapper Not konnte ich sie überzeugen, dass ich ihr mit diesen kleinen Verschönerungen nur eine frohe Überraschung hätte bereiten wollen."/>
+		<sentence subjectID="KH2" txt="Sie war überrascht, nicht aber froh und ließ mich wissen, dass sie in ein Hotel ziehen würde."/>
+		
+		<sentence subjectID="KH3" txt="Natürlich geht diese Lebensweise nicht spurlos an ihm vorüber."/>
+		<sentence subjectID="KH3" txt="[/Amir/] sieht ein wenig blass, ja beinahe durchsichtig aus."/>
+		<sentence subjectID="KH3" txt="[/Gideon/] verlangt in seinem Hause strikten Gehorsam und eiserne Disziplin."/>
+		<sentence subjectID="KH3" txt="Das folgsame Mädchen [/Avital/] erschien mit einem Stoß Zeitungen unterm Arm und fragte: 'Wo sind die Wochenendbeilagen?'"/>
+		<sentence subjectID="KH3" txt="Jetzt war es an [/Gideon/], sich zu schämen."/>
+		<sentence subjectID="KH3" txt="Ich führte zahlreiche Tiere an, die mit der Abenddämmerung einschlafen und mit der Morgendämmerung erwachen."/>
+		<sentence subjectID="KH3" txt="[/Amir/] verwies mich auf das Gegenbeispiel der Eule, die er schon immer als Vorbild hätte."/>
+		<sentence subjectID="KH3" txt="Ich erwog, ihm eine Tracht Prügel zu verabreichen, aber die beste Ehefrau von allen ließ das nicht zu."/>
+		<sentence subjectID="KH3" txt="[/Ephraim/], wir müssen uns damit abfinden, dass wir [/Amir/] nicht auf eine normale Einschlafzeit zurückschrauben können."/>
+		<sentence subjectID="KH3" txt="Wir gaben [/Amirs/] umrandeten Augen jede Freiheit, ja wir ermunterten ihn, überhaupt nicht zu schlafen."/>
+		
+		<sentence subjectID="DIG" txt="Vielleicht stelle ich mich erst mal kurz vor."/>
+		<sentence subjectID="DIG" txt="Mein Name ist [/Karin Riedl/] und ich bin Ethnologin und promoviere zurzeit an der [/LMU/]."/>
+		<sentence subjectID="DIG" txt="Mein Name ist [/Michael Warter/], wir haben einen Ackerbaubetrieb in der Nähe von [/München/]."/>
+		<sentence subjectID="DIG" txt="War da jetzt eine Furche im Boden, oder was war da jetzt?"/>
+		<sentence subjectID="DIG" txt="Wir arbeiten weiter wie bisher."/>
+		<sentence subjectID="DIG" txt="Ich bin überzeugt davon, dass wir nur dann Akzeptanz bekommen, wenn der Mitarbeiter quasi der Besitzer seiner Daten ist."/>
+		<sentence subjectID="DIG" txt="Ich habe alles gelernt, was ich hier lernen kann und will mich weiterentwickeln. Mein Vertrag läuft bald aus."/>
+		<sentence subjectID="DIG" txt="Das neoliberale Wirtschaftssystem hat die Kritik der Hippie-Bewegung einverleibt."/>
+		<sentence subjectID="DIG" txt="In Jobbeschreibungen liest man sehr häufig, man bräuchte ein agiles Mindset, um einen bestimmten Job antreten zu können."/>
+		<sentence subjectID="DIG" txt="Sondern man geht davon aus, dass sich Anforderungen an ein bestimmtes Produkt im Laufe der Zeit auch ändern können."/>
+		<sentence subjectID="DIG" txt="Aber eigentlich sind wir da nicht beim Kern von Agilität angekommen."/>
+		<sentence subjectID="DIG" txt="Es scheint nicht mehr nötig, einen Chef zu haben, der tagein tagaus exakt vorgibt, welches Teammitglied wann welche Aufgabe zu erledigen hat."/>
+		<sentence subjectID="DIG" txt="Die Idee ist daher, schenken wir Vertrauen in ein Team und delegieren wir Aufgaben ganz konkret."/>
+		<sentence subjectID="DIG" txt="Das eine schließt ja das andere nicht aus."/>
+		<sentence subjectID="DIG" txt="Ich bin digitaler Kindergärtner für eine Online-Community aus Usern, die sich rund um die Uhr auf einer Plattform vergnügen, Fragen zu ihren Fachthemen diskutieren und dabei geraten die ständig aneinander."/>
+		<sentence subjectID="DIG" txt="Wenn ich durchgreife und zu viel lösche steigt mir wieder der Chef aufs Dach."/>
+		<sentence subjectID="DIG" txt="Ich habe aber doch noch eine Nachfrage zum Umgang mit den Daten."/>
+		<sentence subjectID="DIG" txt="Besteht denn die Gefahr, dass Daten in die Hände von Falschen geraten, gibt es bereits konkrete Fälle dazu?"/>
+		<sentence subjectID="DIG" txt="Lassen Sie uns doch morgen im Laufe des Tages dazu telefonieren oder auch persönlich sprechen."/>
+		<sentence subjectID="DIG" txt="Heute hat eine Redakteurin von ihr eine Frage an mich ausrichten lassen."/>
+		<sentence subjectID="DIG" txt="Ich treffe immer noch gerne Menschen persönlich, ich kann aber nicht da sein wo mein Team ist."/>
+		
+		<sentence subjectID="PYT" txt="Diese Arbeit setzt sich einerseits zum Ziel, einen kurzen historischen Überblick über den Satz von [/Pythagoras/] und dessen Vordenker zu geben."/>
+		<sentence subjectID="PYT" txt="Andererseits [/10/] Beweise des pythagoräischen Satzes aufzuführen, welche besonders für den Schulunterricht auf der Sekundarstufe geeignet sind."/>
+		<sentence subjectID="PYT" txt="Eine genauere Beschreibung, auf welche Art und Weise die Beweise methodisch im Unterricht verwendet werden, ist jedoch nicht Inhalt und Zweck dieser Arbeit."/>
+		<sentence subjectID="PYT" txt="Der berühmteste Fund, der Papyrus Rhind enthielt angeblich keine Hinweise auf die Bekanntheit des Satzes von [/Pythagoras/]."/>
+		<sentence subjectID="PYT" txt="Es ist daher anzunehmen, dass das pythagoräische Theorem den Ägyptern nicht bekannt war, wenngleich gewisse Zusammenhänge zwischen den ägyptischen Dreiecken und ihrer Rechtwinkligkeit bestanden."/>
+		<sentence subjectID="PYT" txt="Es verhielt sich bei den Ägyptern gleich wie bei den Babyloniern, es war nicht üblich, Texte als Beweise mathematischer Theoreme auszulegen, sondern lediglich als Aufgabensammlung."/>
+		<sentence subjectID="PYT" txt="Das Erkennungszeichen ihrer Vereinigung war das Pentagramm."/>
+		<sentence subjectID="PYT" txt="Ironischerweise war gerade das Pentagramm die Figur, an der später die Irrationalität entdeckt wurde und somit die Grundlagen der Pythagoräischen Weltanschauung zerstört wurden."/>
+		<sentence subjectID="PYT" txt="Über den Katheten werden Quadrate errichtet und deren Flächeninhalte mit dem Flächeninhalt des Hypothenusenquadrates verglichen."/>
+		<sentence subjectID="PYT" txt="Das Ziel des geometrischen Beweises ist es, aufzuzeigen, dass der Satz des Pythagroas allgemeingültig für alle rechtwinkligen Dreiecke gilt, unabhängig von deren Seitenlängen."/>
+		<sentence subjectID="PYT" txt="Die Quadrate der Hyppotenuse und der Katheten bilden die übliche Pythagoras Figur."/>
+		<sentence subjectID="PYT" txt="Ergänzt wird sie allerdings durch zwei weitere rechtwinklige Dreiecke, die zum ursprünglichen kongruent sind."/>
+		<sentence subjectID="PYT" txt="Aus der gesamten Form werden nun zwei Sechsecke hervorgehoben, die je durch Halbierung (Strichpunkte) in zwei flächengleiche Vierecke geteilt werden."/>
+		<sentence subjectID="PYT" txt="Bei genauer Betrachtung lässt sich erkennen, dass die nun entstandenen roten und blauen Vierecke kongruent sind."/>
+		<sentence subjectID="PYT" txt="Wird von der Fläche des roten Sechseckes die Fläche der zwei kongruenten Dreiecke subtrahiert, dann bleibt die Fläche der Kathetenquadrate übrig."/>
+		<sentence subjectID="PYT" txt="Wird das beim blauen Sechseck gemacht, bleibt die Fläche des Hyppotenusenquadrates übrig."/>
+		<sentence subjectID="PYT" txt="Da die rote und die blaue Fläche also gleichwertig sind, sind die beiden Kathetenflächen ebenfalls mit der Hyppotenusenfläche gleichzusetzen."/>
+		
+		<sentence subjectID="KOUR" txt="Das Museum zog mit [/Stanley Margolis/] einen Geologen der [/Universität Kalifornien/] zurate."/>
+		<sentence subjectID="KOUR" txt="Marmor verwandele sich erst im Laufe von Jahrhunderten, wenn nicht Jahrtausenden in Kalzit."/>
+		<sentence subjectID="KOUR" txt="Das bedeutet, dass diese Statue einen langen Alterungsprozess durchgemacht haben musste, was wiederum hieß, dass es sich unmöglich um eine zeitgenössische Fälschung handeln konnte."/>
+		<sentence subjectID="KOUR" txt="Das Museum vernahm diese Ergebnisse mit Genugtuung."/>
+		<sentence subjectID="KOUR" txt="[/Evelyn Harrison/], eine der weltweit führenden Experten auf dem Gebiet der griechischen Plastik, war die nächste, die Zweifel an der Echtheit der Statue vorbrachte."/>
+		<sentence subjectID="KOUR" txt="Und 'frisch' ist normalerweise nicht gerade das erste Wort, das einem beim Anblick einer zweieinhalbtausend Jahre alten Statue einfallen sollte."/>
+		<sentence subjectID="KOUR" txt="Die Statue sah aus wie aus dem Ei gepellt."/>
+		<sentence subjectID="KOUR" txt="Am Ende des Symposiums waren sich viele Teilnehmer einig, dass der Kouros nicht das war, was er zu sein vorgab."/>
+		<sentence subjectID="KOUR" txt="Es stellt sich also heraus, dass die zahlreichen anderen Experten Recht hatten, als sie bei der Betrachtung des Kouros eine intuitive Abneigung empfunden hatten."/>
+		<sentence subjectID="KOUR" txt="Wo ein Markt ist, gibt es auch immer Fälschungen."/>
+		<sentence subjectID="KOUR" txt="Und ich sehe im Moment zumindest mehr Fälschungen."/>
+		
+		<sentence subjectID="SML" txt="Preußen ist kein Staat mit einer Armee, vielmehr eine Armee die einen Staat besitzt."/>
+		<sentence subjectID="SML" txt="Sport gibt dir das Gefühl nackt besser auszusehen. Tequila übrigens auch."/>
+		<sentence subjectID="SML" txt="Finger weg von meiner Notfallkiste!" />
+		<sentence subjectID="SML" txt="Er steht unter meinem persönlichen Schutz." />
+		<sentence subjectID="SML" txt="Ich muss auf das Schärfste gegen den Plan protestieren, den Ziegenbock zu töten." />
+		<sentence subjectID="SML" txt="Vielen Dank, dass du das Leben dieses unschuldigen Tieres zu retten hilfst." />
+		<sentence subjectID="SML" txt="Er fährt aus Flugangst mit dem Auto durch das Land." />
+		<sentence subjectID="SML" txt="Wer suchet, der findet." />
+		<sentence subjectID="SML" txt="- Was verschweigst du mir sonst noch? - So einiges, das dich verdammt noch mal nichts angeht." />
+		<sentence subjectID="SML" txt="- Alles, was ich will, ist, herauszufinden, wer Isabelle entführt hat. Bekommst du das in deinen dicken Schädel?" />
+		<sentence subjectID="SML" txt="- Solange du es in deinen sturen Schädel bekommst, dass ich derjenige bin, der die Befehle gibt." />
+		<sentence subjectID="SML" txt="- Papa, bin ich wirklich adoptiert? - Spinnst du? Als ob ich so was wie dich auswählen würde..." />
+		<sentence subjectID="SML" txt="Woher kommt eigentlich immer die Annahme, ein Programm könnte fertig sein, solange es nicht läuft und die Fehler-Quote nahe [/100%/] ist?" />
+		<sentence subjectID="SML" txt="Der Srägstrich steht für kontinuierliches Wachstum und eine dynamische Entwicklung." />
+		<sentence subjectID="SML" txt="Der Quadrat steht für Sicherheit und ein kontrolliertes Umfeld." />
+		<sentence subjectID="SML" txt="Zusammen: Wachstum in einem stabilen Umfeld." />
+		<sentence subjectID="SML" txt="Wir arbeiten an unseren Traumpartner zu finden, als wäre unser Leben ein Katalogentwurf, dem wir gerecht werden wollen." />
+		<sentence subjectID="SML" txt="Heute sind überall diese Stimmen, die flüstern, dass alles noch viel besser sein könnte: der Job, der Partner, das Leben und vor allem man selbst." />
+		<sentence subjectID="SML" txt="Wir befinden uns in einem anhaltenden Zustand der Selbstoptimierung." />
+		<sentence subjectID="SML" txt="Das Problem mit dem Perfekten ist allerdings, dass man diesen Zustand nie erreicht." />
+		<sentence subjectID="SML" txt="Man weiß einfach, dass es irgendwo noch jemanden gibt, der besser zu einem passt, der das eigene Leben sinnvoller ergänzt." />
+		
+		<sentence subjectID="SML2" txt="Suchen Sie also nicht nach einer Abkürzung; halten Sie sich an den Plan von [/ACN/] und er wird Sie zum Erfolg führen."/>
+		<sentence subjectID="SML2" txt="Diese Firma sorgt dafür, dass sich die verantwortlichen Manager an den Plan halten."/>
+		<sentence subjectID="SML2" txt="Der Rest der Jungs sollte sich an den Plan für das Spiel halten."/>
+		<sentence subjectID="SML2" txt="Jeden Morgen kam ich früh zur Schule, saß auf meinem Tisch und las meinen Freunden vor, was ich am vorigen Abend geschrieben hatte."/>
+		<sentence subjectID="SML2" txt="Es wurde der Hunger und der Durst gut gestillt und die Geschichten erzählt, was jeder am vorigen Abend erlebt hat."/>
+		<sentence subjectID="SML2" txt="Alle Mitarbeiter müssen während des Meetings anwesend sein."/>
+		<sentence subjectID="SML2" txt="Egal, welche Frage Sie an uns richten, wir helfen Ihnen gerne weiter und stellen Ihnen das geeignete Informationsmaterial zusammen."/>
+		<sentence subjectID="SML2" txt="Weiter richten wir einen speziellen Dank an all unseren Kunden und Geschäftspartner für die Zusammenarbeit und Loyalität."/>
+		<sentence subjectID="SML2" txt="Bei Spezialitäten richten wir uns an den jeweiligen Bedürfnissen unserer Kunden aus und entwickeln für sie die passende Lösung."/>
+		
+		<sentence subjectID="DOP1" txt="Zu Weihnachten wünsche ich mir entweder eine Katze oder zwei Meerschweinchen."/>
+		<sentence subjectID="DOP1" txt="Wir reisen nicht nur nach [/China/], sondern auch nach [/Japan/]."/>
+		<sentence subjectID="DOP1" txt="Wir besichtigen sowohl das Schloss als auch den Schlosspark."/>
+		<sentence subjectID="DOP1" txt="Ich mag weder klassische Musik noch interessiere ich mich für Jazz."/>
+		<sentence subjectID="DOP1" txt="[/Maria/] isst zwar gerne Salat, aber keine Karotten."/>
+		<sentence subjectID="DOP1" txt="[/Peter/] ist zwar ein toller Lehrer, aber er kommt oft zu spät zum Unterricht."/>
+		<sentence subjectID="DOP1" txt="In der nächsten Woche habe ich noch Termine frei. Ich kann Ihnen sowohl den Montagnachmittag als auch den Donnerstagvormittag anbieten."/>
+		<sentence subjectID="DOP1" txt="Wir hatten furchtbares Pech mit dem Wetter. Es war nicht nur kalt, sondern es hat auch pausenlos geregnet."/>
+		<sentence subjectID="DOP1" txt="Zwar behaupten viele Menschen, dass sie gute Computerkenntnisse haben, aber eigentlich surfen sie nur im Internet."/>
+		<sentence subjectID="DOP1" txt="Meine ganze Familie ist allergisch. Sowohl meine Mutter als auch meine Großmutter leiden an Allergien."/>
+		<sentence subjectID="DOP1" txt="Wir hatten zu wenig Zeit in [/Paris/]. Wir haben es weder geschafft, das [/Louvre/] zu besuchen, noch auf den [/Champs Elysees/] einkaufen zu gehen."/>
+		<sentence subjectID="DOP1" txt="Es ist eine riesige Enttäuschung für den deutschen Rudersport. Weder der Achter noch der Doppelvierer konnten sich für das Finale qualifizieren."/>
+		<sentence subjectID="DOP1" txt="Wir werden uns entscheiden müssen. Wir können entweder zu [/Lauras/] Hochzeit gehen oder [/Marias/] Einladung in die [/Toskana/] annehmen."/>
+		<sentence subjectID="DOP1" txt="Ich finde, wir sollten uns Frau [/Meybach/] zum Essen einladen. Sie hat nicht nur unsere Blumen gegossen, sondern auch die Katze gefüttert."/>
+		<sentence subjectID="DOP1" txt="Kennst du [/Mareike/] gut? Nein, wir haben zwar im gleichen Jahr Abitur gemacht, aber wir waren nicht in derselben Klasse."/>
+		<sentence subjectID="DOP1" txt="Ich habe keine Ahnung, wem die Schlüssel gehören. Sie gehören weder meinem Bruder noch meiner Schwester."/>
+		<sentence subjectID="DOP1" txt="Das Essen in der Mensa ist zwar sehr preisgünstig, aber es schmeckt mir einfach nicht."/>
+		<sentence subjectID="DOP1" txt="Wenn wir etwas zu feiern haben, gehen wir entweder in die Pizzeria oder in das Restaurant in der Altstadt."/>
+		<sentence subjectID="DOP1" txt="Den Großeltern von [/Manon/] geht es gut. Sie haben nicht nur ein Haus am Meer sondern auch eine Ferienwohnung in einem Skigebiet."/>
+		<sentence subjectID="DOP1" txt="Dieses Auto ist nicht nur bequem, sondern es hat auch ein tolles Design."/>
+		<sentence subjectID="DOP1" txt="Nach dem Abitur fahre ich entweder für ein Jahr nach [/Amerika/] oder nach [/Australien/]."/>
+		<sentence subjectID="DOP1" txt="Im Moment bin ich nicht so fit. Ich habe nicht nur Halsschmerzen, sondern auch Kopfweh."/>
+		<sentence subjectID="DOP1" txt="Die Reise nach [/New York/] war zwar toll, aber auch sehr anstrengend."/>
+		<sentence subjectID="DOP1" txt="Meine Kinder mögen weder Vanilleeis noch Erdbeereis, aber Schokoladeneis mögen sie gern."/>
+		<sentence subjectID="DOP1" txt="Mike liebt schnelles Fahren. Er hat sowohl ein Motorrad als auch einen Porsche."/>
+		<sentence subjectID="DOP1" txt="Fremdsprachen zu lernen ist zwar anstrengend, aber es lohnt sich."/>
+		<sentence subjectID="DOP1" txt="Heute gibt es weder Kuchen noch Schokolade, denn ich mache Diät."/>
+		<sentence subjectID="DOP1" txt="[/Griechenland/] hat nicht nur herrliche Strände, sondern auch hohe Berge."/>
+		<sentence subjectID="DOP1" txt="Dieser Mann ist nicht nur Klug, sondern er sieht auch gut aus."/>
+		<sentence subjectID="DOP1" txt="Du musst dich entscheiden: entweder für dieses Auto oder für das Haus."/>
+		<sentence subjectID="DOP1" txt="Viele Menschen haben weder Zeit noch Geld."/>
+		<sentence subjectID="DOP1" txt="In jeder von uns steckt sowohl ein Engel als auch ein Bengel."/>
+		
+		<sentence subjectID="BRIEF" txt="Entschuldigen Sie bitte, dass mein Sohn [/Peter/] gestern den Unterricht versäumt hat..."/>
+		<sentence subjectID="BRIEF" txt="Außerdem möchte ich Ihnen mitteilen, dass..."/>
+		<sentence subjectID="BRIEF" txt="Lieber Herr [/Schmidt/], über Ihren Brief habe ich mich sehr gefreut..."/>
+		<sentence subjectID="BRIEF" txt="Lieber [/Karl/], herzlich danke ich Dir für Deinen Gruß aus München..."/>
+		<sentence subjectID="BRIEF" txt="Wir werden Ihren Vorschlag dabei in Betracht ziehen." />
+		<sentence subjectID="BRIEF" txt="Mit der Hoffnung dass meine Bewerbung Ihr Interesse geweckt hat, sehe ich ein persönliches Gespräch entgegen, wo ich meine Qualifikationen erläutern kann und einen näheren Eindruck von meiner Person geben kann." />
+		<sentence subjectID="BRIEF" txt="Entschuldigen Sie bitte, dass ich erst jetzt auf Ihren Breif antworte, aber ich war in der letzten Zeit sehr beschäftigt." />
+		<sentence subjectID="BRIEF" txt="Ich wollte Ihnen schon lange schreiben, aber es ist immer etwas dazwischengekommen." />
+		<sentence subjectID="BRIEF" txt="Endlich habe ich ein bisschen Zeit und Ruhe gefunden, um Ihnen zu schreiben." />
+		<sentence subjectID="BRIEF" txt="Ich würde mich freuen, bald wieder von Ihnen zu hören." />
+		<sentence subjectID="BRIEF" txt="Ich warte auf einen Brief von Ihnen." />
+		<sentence subjectID="BRIEF" txt="Ich hoffe, dass ich dir helfen konnte." />
+		<sentence subjectID="BRIEF" txt="Ich wäre Ihnen sehr dankbar, wenn Sie mir bald antworten würden." />
+		<sentence subjectID="BRIEF" txt="Im Voraus vielen Dank für Ihre Mühe." />
+		<sentence subjectID="BRIEF" txt="Über Ort und Uhrzeit werden wir Euch rechtzeitig informieren." />
+		<sentence subjectID="BRIEF" txt="Wenn Ihre Bewerbung unser Interesse geweckt hat, laden wir Sie deshalb zu einem Recruiting-Day nach [/Berlin/] ein." />
+		<sentence subjectID="BRIEF" txt="Und wenn Ihnen meine Arbeit gefällt und sie Ihr Interesse geweckt hat, dann melden Sie sich doch einfach für ein Gespräch." />
+		<sentence subjectID="BRIEF" txt="Sollten wir Ihr Interesse geweckt haben, richten Sie bitte Ihre Bewerbung an nachstehende Adresse." />
+		<sentence subjectID="BRIEF" txt="Über Ihre Einladung zu einem Vorstellungsgespräch würde ich mich freuen." />
+		<sentence subjectID="BRIEF" txt="Aus diesem Grund stornieren wir unseren Auftrag mit sofortiger Wirkung." />
+		<sentence subjectID="BRIEF" txt="Bei Rückfragen können Sie sich jederzeit an uns wenden." />
+		<sentence subjectID="BRIEF" txt="Meine Reaktion war in keinster Weise gerechtfertigt." />
+		<sentence subjectID="BRIEF" txt="Ich würde das gerne ungeschehen machen." />
+		<sentence subjectID="BRIEF" txt="Ihr Ärger ist vollkommen berechtigt." />
+		<sentence subjectID="BRIEF" txt="Mir tut es aufrichtig leid." />
+		<sentence subjectID="BRIEF" txt="Bitte entschuldigen Sie diesen Fehler." />
+		<sentence subjectID="BRIEF" txt="Entschuldigen Sie bitte die Unannehmlichkeiten, die Ihnen dadurch entstanden sind." />
+		<sentence subjectID="BRIEF" txt="Ich verspreche Ihnen, dass..." />
+		<sentence subjectID="BRIEF" txt="Falls Sie das neugierig gemacht hat, sollten wir uns persönlich kennenlernen." />
+		<sentence subjectID="BRIEF" txt="Gerne beantworte ich bei einem persönlichen Treffen weitere Fragen." />
+		<sentence subjectID="BRIEF" txt="Ich habe Ihnen heute auch schon eine diesbezügliche Nachricht auf Ihrem Anrufbeantworter hinterlassen." />
+		<sentence subjectID="BRIEF" txt="Wenn es möglich ist würde ich gerne den Vertrag zum ersten das nächste Monat beantragen." />
+		<sentence subjectID="BRIEF" txt="Aus diesem Grund bitte ich Sie, mir die bezahlte Summe zurückzuerstatten." />
+		<sentence subjectID="BRIEF" txt="Wir weisen darauf hin, dass ab [/1. Juli/] die neue Preisliste gilt." />
+		<sentence subjectID="BRIEF" txt="Was heißt das in Ihrem Fall?" />
+		<sentence subjectID="BRIEF" txt="Sorgen Sie bitte dafür, dass uns die Formulare spätestens am [/23.03.2006/] vorliegen." />
+		<sentence subjectID="BRIEF1" txt="Ich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihr Angebot." />
+		<sentence subjectID="BRIEF1" txt="Ich möchte mit meiner Familie vom [/10. - 24. August/] in Österreich Urlaub machen und hätte deshalb gerne noch nähere Informationen." />
+		<sentence subjectID="BRIEF1" txt="Meine Frau und mich interessiert ganz besonders das Freizeitprogramm für Kinder, da wir zwei Kinder ([/3/] und [/8/] Jahre) haben." />
+		<sentence subjectID="BRIEF1" txt="Gibt es Schwimm- und Tenniskurse für Kinder und wenn ja, was kosten sie?" />
+		<sentence subjectID="BRIEF1" txt="In Ihrer Anzeige steht auch, dass Sie günstige Angebote für Kinder haben." />
+		<sentence subjectID="BRIEF1" txt="Wie viel müssten wir pro Woche für unsere Kinder bezahlen?" />
+		<sentence subjectID="BRIEF1" txt="Wir haben einen kleinen Hund, von dem sich meine Kinder nicht trennen können und den wir deshalb auch mitnehmen müssten." />
+		<sentence subjectID="BRIEF1" txt="Und schließlich noch eine letzte Frage: ..." />
+		<sentence subjectID="BRIEF1" txt="Bitte schreiben Sie uns so bald wie möglich, damit wir uns schnell entscheiden können." />
+		<sentence subjectID="BRIEF1" txt="Außerdem wären wir Ihnen sehr dankbar‚ wenn Sie uns einige  Prospekte oder Bilder Ihrer Pension sowie der Umgebung zusenden würden." />
+		<sentence subjectID="BRIEF2" txt="Nach meinem Praktikum in Frankreich bin ich jetzt wieder zu Hause." />
+		<sentence subjectID="BRIEF2" txt="Wie du ja weißt, wollte ich eigentlich nach Paris, aber das hat dann leider nicht geklappt." />
+		<sentence subjectID="BRIEF2" txt="Doch dann habe ich eine Stelle als Praktikant bei einer Firma in Straßburg gefunden." />
+		<sentence subjectID="BRIEF2" txt="Dort bin ich drei Monate geblieben." />
+		<sentence subjectID="BRIEF2" txt="Die Arbeit war sehr anstrengend - ich musste schon um [/8.00/] Uhr im Büro sein - , hat mir aber trotzdem sehr gut gefallen." />
+		<sentence subjectID="BRIEF2" txt="Ich habe in dieser Zeit in verschiedenen Abteilungen gearbeitet und so nicht nur etwas über die Herstellung von Fernsehgeräten gelernt, sondern auch über den Verkauf." />
+		<sentence subjectID="BRIEF2" txt="Und die beiden Kollegen, mit denen ich am meisten zu tun hatte, waren wirklich sehr nett." />
+		<sentence subjectID="BRIEF2" txt="Nach dem Praktikum habe ich noch zwei Wochen Urlaub bei meinen Freunden gemacht." />
+		<sentence subjectID="BRIEF2" txt="Aber darüber erzähle ich dir bald mehr - für heute muss ich Schluss machen." />
+		<sentence subjectID="BRIEF3" txt="Vor zwei Tagen wurde in der Zeitung über die geplante Verkehrsberuhigung an der Lippestraße berichtet." />
+		<sentence subjectID="BRIEF3" txt="Nehmen Sie dazu bitte zur Kenntnis, dass ich im Namen der industriellen Anlieger scharf gegen diese Maßnahme protestiere, denn die Lippestraße ist die kürzeste Strecke von der [/A6/] zu unseren Firmengeländen." />
+		<sentence subjectID="BRIEF3" txt="Es ist nicht im Interesse der Bürger, dass eine Straße verkehrsberuhigt wird und dafür der Schwerlastverkehr durch drei bis dahin ruhige Straßen geführt wird." />
+		<sentence subjectID="BRIEF3" txt="Wir erwarten diesbezüglich Ihre Antwort." />
+		
+		<sentence subjectID="SPB1" txt="Jeder Mensch hat andere Essgewohnheiten, abhängig davon, in welchem Land er lebt, welchen Beruf er ausübt." />
+		<sentence subjectID="SPB1" txt="Die Essgewohnheiten sind in vielen Ländern unterschiedlich." />
+		<sentence subjectID="SPB1" txt="Es kommt stark darauf an, zu welcher Zeit gegessen wird, was das Essen für die Menschen bedeutet, wie lange sie essen und wie groß die Vielfalt der Gerichte ist." />
+		<sentence subjectID="SPB1" txt="Allgemein anzumerken ist, dass in den Mittelmeerländern eher süße und in den nordischen Ländern vermehrt salzige Mahlzeiten gegessen werden." />
+		<sentence subjectID="SPB1" txt="Das Mittagessen ist in Deutschland die Hauptmahlzeit am Tag." />
+		<sentence subjectID="SPB1" txt="In anderen europäischen Ländern, in denen die Schüler sich auch nachmittags in der Schule befinden, finden in der Regel kein familiäres Mittagessen statt." />
+		<sentence subjectID="SPB1" txt="Die Eltern essen auf der Arbeit und die Kinder meist in der Schulkantine." />
+		<sentence subjectID="SPB1" txt="Deshalb besteht das Mittagessen hier aus einer schnellen Zwischenmahlzeit (kalte Salate, salziges Gebäck [/etc./])." />
+		<sentence subjectID="SPB1" txt="An diesen unterschiedlichen Essgewohnheiten kann man schon erkennen, dass Menschen in manchen Ländern gesünder leben als in anderen." />
+		<sentence subjectID="SPB1" txt="Jedoch ist ein weiterer Aspekt auch die berufliche Tätigkeit." />
+		<sentence subjectID="SPB1" txt="Menschen, die in ihrem Beruf viel Stress haben und kaum zum Essen kommen, werden eher zu schnellen, fettreichen Produkten greifen." />
+		<sentence subjectID="SPB1" txt="Zum Beispiel kann das Kantinenessen in den meisten Fällen keine ausgewogene Ernährung darstellen." />
+		<sentence subjectID="SPB1" txt="Aber auch Menschen mit stressigem Alltag können vorsorgen und der Gesundheit unter die Arme greifen, denn Sandwiches mit viel Gemüse und fettarmer Wurst sind schnell zubereitet." />
+		<sentence subjectID="SPB1" txt="Obst und Gemüse haben sich ebenfalls bestens bewährt." />
+		<sentence subjectID="SPB2" txt="Immer mehr Menschen nutzen Online-Angebote und Apps, um fitter, gesünder oder schlanker zu werden." />
+		<sentence subjectID="SPB2" txt="Sie zählen zum Beispiel die Schritte, die sie am Tag zurücklegen." />
+		<sentence subjectID="SPB2" txt="Sie messen ihr Tempo beim Joggen oder kontrollieren, ob sie genug Vitamine zu sich nehmen." />
+		<sentence subjectID="SPB2" txt="Nicht nur Apps verkaufen sich gut, sondern auch Fitnesstracker." />
+		<sentence subjectID="SPB2" txt="Das sind Armbänder oder Clips, die man an der Kleidung befestigen kann." />
+		<sentence subjectID="SPB2" txt="Die Fitnesstracker sind mit Sensoren ausgestattet. Sie messen zum Beispiel den Herzschlag, zählen die Schritte oder den Kalorienverbrauch des Nutzers." />
+		<sentence subjectID="SPB2" txt="Die eigenen Körperwerte genau zu erfassen,  gehört inzwischen zum Alltag vieler Menschen in Deutschland. Dafür gibt es vier Gründe." />
+		<sentence subjectID="SPB2" txt="Erstens: Die Deutschen achtren immer mehr auf ihre Gesundheit unbd Fitness. Zweitens sind Smartphones mittlerweile weit verbreitet." />
+		<sentence subjectID="SPB2" txt="Und drittens ist es in den vergangenen Jahren immer billigen geworden, die Sensoren, die bestimmte Werte messen, herzustellen." />
+		<sentence subjectID="SPB2" txt="Der vierte Grund: Es sind digitale Technologien entwickelt worden, die Daten sammeln und optisch aufbereiten können." />
+		<sentence subjectID="SPB2" txt="Die Ergebnisse lassen sich bequem per Smartphone abrufen und die Nutzer können ihre Trainingsergebnisse als bunte Kurven und Diagramme betrachten." />
+		<sentence subjectID="SPB2" txt="Für übergewichtige Kinder können solche Geräte eine Hilfe sein." />
+		<sentence subjectID="SPB2" txt="Auf ihrer App sehen sie zum Beispiel, dass sie [/9.000/] Schritte machen müssen, um die Kalorie wieder zu verbrauchen, die sie mit einer einzigen Packung Schokokugeln zu sich nehmen." />
+		<sentence subjectID="SPB2" txt="Das beinflusst ihre Verhalten." />
+		<sentence subjectID="SPB2" txt="Wer beim Joggen Fitness-Apps benutzt und seinen Puls misst, kann abgelenkt werden." />
+		<sentence subjectID="SPB2" txt="Ob man will oder nicht, ständig schaut man auf den Bildschirm und stolpert dann villeicht über eine Baumwurzel oder rennt gegen einen Pfosten." />
+		<sentence subjectID="SPB2" txt="Es ist auch gar nicht wichtig, ständig den eigenen Puls zu beobachten. Man fühlt selbst am besten, wie der Körper arbeitet." />
+		<sentence subjectID="SPB2" txt="Dieses Gefühl sollte man nicht an ein Gerät abgeben." />
+		
+		<sentence subjectID="SPB3" txt="Was ist die richtige Kleidung? Hier gibt es keine pauschale Aussagen, da dies immer abhängig vom Unternehmen selbst, der Branche und vielen anderen Faktoren ist." />
+		<sentence subjectID="SPB3" txt="Im klassischen Business sollte stets die richtige Kleidung getragen werden. Für Männer empfiehlt sich ein Anzug mit Krawatte." />
+		<sentence subjectID="SPB3" txt="Für Frauen empfehlen sich Kostüme, Hosenanzüge, Stoffhosen und dezente Blusen." />
+		<sentence subjectID="SPB3" txt="Absolute No-Gos sind hier kurze Röcke, die oberhalb des Knies enden oder Spaghetti-Träger und Neckholder." />
+		<sentence subjectID="SPB3" txt="Beim klassischen Business, wie beispielweise in der Finanzwelt oder mit direktem Kundenkontakt sollten alle Mitarbeiter darauf achten, ihr Äußeres besonders zu pflegen." />
+		<sentence subjectID="SPB3" txt="So sind Strumpfhosen für Frauen ein Muss, auch im Sommer." />
+		<sentence subjectID="SPB3" txt="Die perfekten Schuhe sind Pumps, offene Schuhe, Sandalen, Stilettos oder zu hohe Absätze sollten vermeiden werden." />
+		<sentence subjectID="SPB3" txt="Die Herren setzen auf elegante Glattleder-Schuhe, die idealerweise schwarz sind und lange Anzughosen, auch im Sommer." />
+		<sentence subjectID="SPB3" txt="Beim Schmuck bewahrheitet sich die Regel: Weniger ist Mehr." />
+		<sentence subjectID="SPB3" txt="Sichtbare Piercings und Tattoos sind ebenfalls ein No-Go." />
+		<sentence subjectID="SPB3" txt="Auch bei kreativen Berufen gibt es einen Dresscode." />
+		<sentence subjectID="SPB3" txt="Die richtige Kleidung ist hier weniger streng gestaltet." />
+		<sentence subjectID="SPB3" txt="So können Frauen und Männer gleichermaßen mehr Farbe bekennen." />
+		<sentence subjectID="SPB3" txt="Möglich sind sogar Jeans, die getragen werden können." />
+		<sentence subjectID="SPB3" txt="Passend dazu gibt es ein Hemd für den Herrn oder eine dezente Bluse für die Dame." />
+		<sentence subjectID="SPB3" txt="Nach Stil des Büros kann auch die Kleidung bei Sommertemperaturen gestaltet werden." />
+		<sentence subjectID="SPB3" txt="In Banken, Rechtsanwaltsbüros und Versicherungen wird allerdings auch bei über [/20/] Grad ein gewisser Dresscode verlangt und es ist ein No-Go, zu viel nackte Haut zu zeigen." />
+		<sentence subjectID="SPB3" txt="Das bedeutet: lange Hosen für Männer sind ein Muss." />
+		<sentence subjectID="SPB3" txt="Frauen hingegen können zu luftigen Röcken greifen." />
+		<sentence subjectID="SPB3" txt="Der Rock sollte knielang sein und beim Sitzen nicht mehr als ein Drittel der Oberschenkels zeigen." />
+		<sentence subjectID="SPB3" txt="Generell gilt: Niemals besser gekleidet sein, als der Chef." />
+		
+		<sentence subjectID="SPB4" txt="Die Babysitter und Altenpfleger von morgen sind hier, da Roboter schon heute in allen Lebensbereichen verwendet/benutzt werden." />
+		<sentence subjectID="SPB4" txt="Nicht nur passen Roboterwesen auf Kinder auf, sondern sie spielen, basteln, singen und reden auch mit ihnen." />
+		<sentence subjectID="SPB4" txt="Auch für den Haushalt ist Roboterhilfe absehbar, ganz zu schweigen von der Seniorenpflege." />
+		<sentence subjectID="SPB4" txt="Die Roboter sind in der Lage, jeden Abend den Boden aufzuwischen und den Müll zu trennen." />
+		<sentence subjectID="SPB4" txt="Und nicht nur das." />
+		<sentence subjectID="SPB4" txt="Was die Altenpflege angeht/betrifft, kann der blecherne Helfer sowohl Medikamenten holen als auch den Arzt rufen." />
+		<sentence subjectID="SPB4" txt="In einer anderen Roboter-Form, dem Elektrovehikel 'i-unit' wird der Fahrer sitzend oder liegend transportiert." />
+		<sentence subjectID="SPB4" txt="Vielleicht wirkt/klingt das sehr futuristisch, doch für behinderte Menschen wäre das die Zukunft." />
+		
+		<sentence subjectID="SPB5" txt="Kochen liegt im Trend." />
+		<sentence subjectID="SPB5" txt="Den Menschen ist das Kochen immer mehr wert." />
+		<sentence subjectID="SPB5" txt="Das Bedürfnis nach bewusster, gesunder und geschmacklich anspruchsvoller Ernährung wächst." />
+		<sentence subjectID="SPB5" txt="Wäre da bloß nicht das Mühsame Einkauf!" />
+		<sentence subjectID="SPB5" txt="Nach einem anstrengenden Tag hat niemand Lust auf Einkaufsstress - Rezepte auswählen, Mengen planen und dann ins Geschäft, vielleicht sogar in mehrerere, denn manche Zutaten findet man nicht sofort und überall." />
+		<sentence subjectID="SPB5" txt="Selbstverständlich lässt der Markt den Kunden mit solchen Problemen nicht lange allein." />
+		<sentence subjectID="SPB5" txt="Die Zukunft des Lebensmitteleinkaufs liegt im Internet, ein Trend, so Experten, der gerade erst anfängt." />
+		<sentence subjectID="SPB5" txt="Neben der Onlinebestellung bei den üblichen Lieferdiensten oder im Supermarkt gibt es seit einiger Zeit die alternative 'Kochbox'." />
+		<sentence subjectID="SPB5" txt="Wichtigstes Merkmal: Die Lebensmittel darin genau die Menge, die der Kunde für von ihm online gewählte Rezepte braucht - Kochanleitung inklusive." />
+		<sentence subjectID="SPB5" txt="Verschiedene Anbieter bedienen dabei unterschiedliche Bedürfnisse: Es gibt Kochboxes für Singles, für Familien mit Kindern oder auch für Personen mit Nahrungsmittelallergien." />
+		<sentence subjectID="SPB5" txt="Zum Angebot zählen Boxen für Vegetarier, für Gourmets und bestimmte Anlässe, wie den Grillabend oder Weihnachten." />
+		<sentence subjectID="SPB5" txt="Kochboxen werden gut angenommen, nicht nur von erschöpften Vollzeitberufstätigen, sondern von einem gemischten Publikum." />
+		<sentence subjectID="SPB5" txt="Schließlich entspricht das Geschäft gleich mehreren Trends und Bedürfnissen: Onlinebestellung und Lieferservice sind bequem und sparen Zeit." />
+		<sentence subjectID="SPB5" txt="Die Kochboxen ermöglichen eine gesunde, individuelle und genussvolle Ernährung, bei der weniger Lebensmittel weggeworfen werden." />
+		
+		<sentence subjectID="SPB6" txt="Was glauben Sie? Wer wird genommen?" />
+		<sentence subjectID="SPB6" txt="Es gibt Menschen, die aus ihren Stadtteilen wegziehen müssen, weil die Mieten zu teuer für sie werden." />
+		<sentence subjectID="SPB6" txt="Oder, die gar nicht erst eine Wohnung bekommen, weil sie [/Öztürk/] oder [/Salid/] heißen." />
+		<sentence subjectID="SPB6" txt="Wir reden über Ungerechtigkeiten und Unsicherheiten - über den Ausschluss von Menschen aus großen Bereichen der Gesellschaft. Die Soziologie nennt das Exklusion." />
+		<sentence subjectID="SPB6" txt="Wenn wir über Exklusion reden, dann reden wir von:" />
+		<sentence subjectID="SPB6" txt="- Kinder, die kein Geld für Fußballschule oder die Klassenfahrt haben" />
+		<sentence subjectID="SPB6" txt="- jungen Migrantinnen und Migranten mit hauptschulabschluss, die eine geringere Aussicht auf eine Ausbildung haben" />
+		<sentence subjectID="SPB6" txt="- Kindern, deren Talente nicht ausreichend gefördert werden" />
+		<sentence subjectID="SPB6" txt="- Rollstuhlfahrerinnen und Rollstuhlfahrern, die ständig auf schmale Türen, Treppen oder Kopfsteinpflaster stoßen" />
+		<sentence subjectID="SPB6" txt="- Frauen, deren trotz besserer Qualifikation der Chefinnenstuhl verwehrt bleibt" />
+		<sentence subjectID="SPB6" txt="- Minijobbern und Hartz-IV-Aufstockern, die nocht von ihrem Lohn leben können" />
+		<sentence subjectID="SPB6" txt="- oder von Menschen, für die Politik nicht mehr verständlich und beinflussbar ist" />
+		<sentence subjectID="SPB6" txt="Wir reden nicht mehr nur von oben und unten, arm und reich, sondern auch von denen, die Teil unseres Miteinanders sind, oder eben nicht." />
+		<sentence subjectID="SPB6" txt="Wir reden von denen, die keinen Zugang zu sozialer und politischer Teilhabe haben." />
+		<sentence subjectID="SPB6" txt="Wer ist drinnen? Wer bleibt eigentlich draußen?" />
+		<sentence subjectID="SPB6" txt="Wie können wir dafür sorgen, dass jede und jeder seine Chance erhält - unabhängig von dem, was jemand hat und woher jemand kommt." />
+		<sentence subjectID="SPB6" txt="Inklusion steht für die Idee, dass niemand unserer Gesellschaft ausgegrenzt wird." />
+		<sentence subjectID="SPB6" txt="Jede und jeder soll dabei sein." />
+		<sentence subjectID="SPB6" txt="Wir wollen eine gerechtere Gesellschaft und ein soziales Miteinander." />
+		<sentence subjectID="SPB6" txt="Inklusion steht für gleiche Chancen. Das ist unser Ziel." />
+		<sentence subjectID="SPB6" txt="Hochinklusiv - Zusammenhalt einer vielfältigen Gesellschaft." />
+		
+		<sentence subjectID="SPB7" txt="Der ganze Spruch oder das ganze Zitat von Heinrich Böll heißt ja eigentlich: Einmischung ist die einzige Möglichkeit realistisch zu bleiben." />
+		<sentence subjectID="SPB7" txt="Und der zweite Teil des satzes ist mir, ehrlich gesagt, genauso wichtig wie der erste." />
+		<sentence subjectID="SPB7" txt="Einmischen worein und warum? Ja, um realistisch zu bleiben." />
+		<sentence subjectID="SPB7" txt="Und das hieß für jemanden wie Böll, der ein Freund von Václav Havel war, gesehen hat, was mit den Bürgern- und Menschenrechtlern hinter dem eisernen Vorhang passiert ist, das hieß für Böll, auf der einer Seite nicht wahnsinnig zu werden und nicht in apokalyptischen Szenarien zu verfallen, und auf der anderen Seite aber auch, die eigene Träume immer an der Realität zu überprüfen." />
+		<sentence subjectID="SPB7" txt="Also deswegen heißt Einmischung für mich einerseits das Unmögliche zu träumen, zu denken, und gleichzeitig darüber nachzudenken, was ist das Mögliche und wie setzen wir das in die Realität um." />
+		<sentence subjectID="SPB7" txt="Und das kann man jetzt an ganz vielen verschiedenen Themen, die wir auch in der Böll-Stiftung bearbeiten, durchbuchstabieren: ob das das Thema Gerechtigkeit zwischen Männern und Frauen ist, ob das das Thema Klimagerechtigkeit ist, ob das das Thema Menschenrechte in autoritäten Strukturen ist." />
+		<sentence subjectID="SPB7" txt="Immer geht wes darum, an das Unmögliche zu glauben und nach dem Möglichen zu suchen." />
+		<sentence subjectID="SPB8" txt="Auch in einer Großstadt wie [/Berlin/] - das ist der Bahnhof am [/Potsdamer Platz/] - gibt es viele Radwege." />
+		<sentence subjectID="SPB8" txt="Immer mehr Berliner benutzen das Rad, um in der Stadt voranzukommen." />
+		<sentence subjectID="SPB8" txt="Und das nicht nur bei schönem Wetter im Sommer." />
+		<sentence subjectID="SPB8" txt="Radfahren ist praktisch und... Umweltfreundlich!" />
+		<sentence subjectID="SPB8" txt="Für Touristen sind die sogenannten Velo-Taxis eine Alternative zu den traditionellen Verkehrsmitteln." />
+		<sentence subjectID="SPB8" txt="Der Velo-Fahrer gibt dabei Informationen über die Sehenswürdigkeiten der Stadt." />
+		<sentence subjectID="SPB8" txt="In [/Berlin/] sind alle Busse gelb." />
+		<sentence subjectID="SPB8" txt="Wenn man einsteigt, braucht man einen gültigen Fahrausweis." />
+		<sentence subjectID="SPB8" txt="Man kann ihn aber auch beim Fahrer kaufen." />
+		<sentence subjectID="SPB8" txt="Lustig sind die berliner Ampeln: Das sogenannte Ampelmännchen zeigt, wann man über die Straße gehen darf." />
+		<sentence subjectID="SPB8" txt="In [/Berlin/] gibt es auch Straßenbahnen, vor allem im Ostteil der Stadt." />
+		<sentence subjectID="SPB8" txt="Auch die Straßenbahnen sind gelb." />
+		<sentence subjectID="SPB8" txt="Berlin ist eine große Stadt, so groß wie [/Hamburg/], [/München/] und [/Frankfurt/] zusammen." />
+		<sentence subjectID="SPB8" txt="Die S-Bahn, dass heißt die Schnellbahn, ist ein Zug, der die verschiedene Stadtteile schnell miteinander verbindet." />
+		<sentence subjectID="SPB8" txt="Natürlich gibt es in Berlin eine U-Bahn, dass heißt eine Untergrundbahn." />
+		<sentence subjectID="SPB8" txt="Es gibt viele Linien." />
+		<sentence subjectID="SPB8" txt="Am [/Alexanderplatz/] kreuzen sich die Linien [/U2, U5 und U8/]." />
+		<sentence subjectID="SPB8" txt="Der [/Alexanderplatz/] ist ein wichtiger Knotenpunkt im S- und U-Bahn-Verkehr." />
+		<sentence subjectID="SPB8" txt="In jeder U-Bahn-Station gibt es Fahrscheinautomaten." />
+		<sentence subjectID="SPB8" txt="Eine Einzelfahrt kostet [/2,1 EUR/]." />
+		<sentence subjectID="SPB8" txt="Man muss den Fahrschein denn entwerten, bevor man in den Zug einssteigt." />
+		<sentence subjectID="SPB8" txt="Auch die U-Bahn-Züge sind gelb." />
+		<sentence subjectID="SPB8" txt="Menschen mit körperlicher Behinderung oder Frauen mit Kinderwagen benutzen einen Fahrstuhl, um die U-Bahn-Station zu verlassen." />
+		<sentence subjectID="SPB8" txt="Für Notfälle stehen Notruf-Säulen zur Verfügung. Man drückt auf einen Knopf und jemand meldet sich." />
+		<sentence subjectID="SPB8" txt="In vielen U-Bahn-Stationen gibt es Info-Büros der [/BVG/], dass heisßt, der Berliner Verkehrsgesellschaft." />
+		<sentence subjectID="SPB8" txt="Hier erhält man Informationen über das Liniennetz und den Fahrplan der Züge." />
+	</sentences>
+</test>

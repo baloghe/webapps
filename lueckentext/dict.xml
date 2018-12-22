@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GUIDictionary>
+	<label id="ChooseParameters">
+		<trans lang="EN" txt="Choose parameters:" />
+		<trans lang="DE" txt="W&#228;hle Parameters:" />
+		<trans lang="FR" txt="Choisi les param&#232;tres:" />
+	</label>
+	<label id="WordTypes">
+		<trans lang="EN" txt="Word types:" />
+		<trans lang="DE" txt="Worttypen:" />
+		<trans lang="FR" txt="Types de mots:" />
+	</label>
+	<label id="Subjects">
+		<trans lang="EN" txt="Subjects:" />
+		<trans lang="DE" txt="Themen:" />
+		<trans lang="FR" txt="Sujets:" />
+	</label>
+	<label id="NewTest">
+		<trans lang="EN" txt="New Test" />
+		<trans lang="DE" txt="Neues Test" />
+		<trans lang="FR" txt="Nouveau Test" />
+	</label>
+	<label id="BlankRatio">
+		<trans lang="EN" txt="Blank ratio (0-100):" />
+		<trans lang="DE" txt="Leerer Anteil (0-100):" />
+		<trans lang="FR" txt="Proportion vide (0-100):" />
+	</label>
+	<label id="Repeat">
+		<trans lang="EN" txt="Repeat with same settings" />
+		<trans lang="DE" txt="Wiederholen mit unge&#228;nderten Angaben" />
+		<trans lang="FR" txt="Répéter avec les m&#234;mes param&#232;tres" />
+	</label>
+	<label id="Unknown">
+		<trans lang="EN" txt="Unknown" />
+		<trans lang="DE" txt="Unbekannt" />
+		<trans lang="FR" txt="Inconnu" />
+	</label>
+	<label id="ZEICH">
+		<trans lang="EN" txt="Delimiter" />
+		<trans lang="DE" txt="Trennzeichen" />
+		<trans lang="FR" txt="Séparateur" />
+	</label>
+	<label id="Stat">
+		<trans lang="EN" txt="Statistics" />
+		<trans lang="DE" txt="Statitik" />
+		<trans lang="FR" txt="Statistique" />
+	</label>
+	<label id="Next">
+		<trans lang="EN" txt="Next" />
+		<trans lang="DE" txt="N&#228;chste" />
+		<trans lang="FR" txt="Suivant" />
+	</label>
+	<label id="StartTest">
+		<trans lang="EN" txt="Start test" />
+		<trans lang="DE" txt="Test anfangen" />
+		<trans lang="FR" txt="Commencer le test" />
+	</label>
+</GUIDictionary>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app version="3.0"
+  xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+ 
+   <servlet>
+      <servlet-name>Lueckentext</servlet-name>
+      <servlet-class>app.LueckentextServlet</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>ClozeTest</servlet-name>
+      <servlet-class>app.ClozeTestServlet</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>Results</servlet-name>
+      <servlet-class>app.ResultsServlet</servlet-class>
+   </servlet>
+   
+   <servlet>
+      <servlet-name>Parameters</servlet-name>
+      <servlet-class>app.ParamServlet</servlet-class>
+   </servlet>
+ 
+   <servlet-mapping>
+      <servlet-name>ClozeTest</servlet-name>
+      <url-pattern>/cloze</url-pattern>
+   </servlet-mapping>
+ 
+   <servlet-mapping>
+      <servlet-name>Results</servlet-name>
+      <url-pattern>/results</url-pattern>
+   </servlet-mapping>
+ 
+   <servlet-mapping>
+      <servlet-name>Parameters</servlet-name>
+      <url-pattern>/params</url-pattern>
+   </servlet-mapping>
+</web-app>
