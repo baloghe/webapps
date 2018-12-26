@@ -9,7 +9,8 @@ Lückentext (english: Cloze-test) is a type of grammar test where certain words 
 The app operates with Servlets and without a database (instead: texts are provided in a static XML file)
 
 <h3>Variations on Tic-Tac-Toe</h3>
-<strong>TicTacToe1:</strong> Java Servlet version of the fancied Tic-Tac-Toe game (computer opponent taking random moves)
+<p><strong>TicTacToe1:</strong> Java Servlet version of the fancied Tic-Tac-Toe game (computer opponent taking random moves)</p>
+<p><strong>TicTacToe2:</strong> same functionality with Java Server Pages (JSP) + two possible opponent strategies at disposal</p>
 
 <h3>Variations on the NumberGuess theme</h3>
 <strong>numguess1:</strong> "vanilla" based on instructions at ntu.edu, using JSP
