@@ -30,8 +30,12 @@ public class Game {
 		computerStrategyType = inCompStratType;
 	}
 	
+	public int getComputerStrategyType(){
+		return computerStrategyType;
+	}
+	
 	public void setHumanStarts(String inHumanStarts){
-		humanStarts = (inHumanStarts != null);
+		humanStarts = (inHumanStarts != null && !(inHumanStarts.equalsIgnoreCase("")));
 	}
 	
 	public String getSettings(){
@@ -110,7 +114,7 @@ public class Game {
 		if(bwinner==0)
 			winner = "Draw";
 		else if(bwinner == computer.getSymbol())
-			winner = "Computer";
+			winner = "Computer (" + GameStrategyFactory.getStrategyName(computerStrategyType) + ")";
 		else if(bwinner != computer.getSymbol())
 			winner = "Human";
 		

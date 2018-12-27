@@ -13,6 +13,9 @@
 <body>
 <% if( request.getParameter("usage").equalsIgnoreCase("newgame") ){ %>
 	<jsp:setProperty name="game" property="*" />
+	<% if( request.getParameter("humanStarts") == null){
+			game.setHumanStarts(null);
+		}%>
 	<% game.reset(); %>
 <% } %>
 
@@ -70,6 +73,8 @@
 <% if( !request.getParameter("usage").equalsIgnoreCase("showlast") ){ //complete <form> %>
 
 <input type='hidden' name='usage' value='playing'/>
+<input type='hidden' name='humanStarts' value='<%=request.getParameter("humanStarts")%>'/>
+<input type='hidden' name='computerStrategyType' value='<%=request.getParameter("computerStrategyType")%>'/>
 <%	if( game.isGameFinished() ){ %>
 		<button type='submit' value='start'>New game</button>
 <%	} %>

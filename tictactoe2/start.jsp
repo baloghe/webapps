@@ -9,15 +9,24 @@
 </head>
 <body>
 <h3>Start a new game!</h3>
+
 <!-- Form for NewGame button -->
 <form method='post' action='board.jsp'>
 	<p>Choose opponent strategy:<select name="computerStrategyType">
-	<%	for(java.util.Map.Entry<Integer, String> e : app.GameStrategyFactory.STRATEGIES.entrySet()){ %>
-			<option value="<%= e.getKey() %>"><%= e.getValue() %></option>
+	<% 	int prevStrat = -1;
+		if( request.getParameter("computerStrategyType") != null ){
+			try{
+				Integer x = Integer.parseInt(request.getParameter("computerStrategyType"));
+				prevStrat = x.intValue();
+			} catch (NumberFormatException e){
+			}
+		}
+		for(java.util.Map.Entry<Integer, String> e : app.GameStrategyFactory.STRATEGIES.entrySet()){ %>
+			<option value="<%= e.getKey() %>" <% if( e.getKey().intValue() == prevStrat ) %> selected <% ; %> > <%= e.getValue() %> </option>
 	<%	} %></select>
 	</p>
 	<p>Would You start the game? Or leave the first move to the Computer?
-	<input type="checkbox" name="humanStarts" value="human">Human starts</input>
+	<input type="checkbox" name="humanStarts" value="human" <% if( request.getParameter("humanStarts") != null && !request.getParameter("humanStarts").equalsIgnoreCase("null") ) %> checked <% ; %> >Human starts</input>
 	</p>
 	<input type='hidden' name='humanSymbol' value='<%= Board.CIRCLE %>'/>
 	<input type='hidden' name='usage' value='newgame'/>

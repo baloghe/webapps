@@ -27,4 +27,10 @@ public class GameStrategyFactory {
 		}
 	}
 	
+	public static String getStrategyName(int inStrategyType){
+		String ret = STRATEGIES.get(inStrategyType);
+		if(ret == null)
+			return "Unknown";
+		else return ret;
+	}
 }
