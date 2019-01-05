@@ -1,0 +1,10 @@
+div.hintSmaller{
+	background-image:url('smaller.png');
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+div.hintBigger{
+	background-image:url('bigger.png');
+	background-repeat: no-repeat;
+	font-weight: bold;
+}

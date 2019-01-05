@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+  <h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Number Guess - JSF Facelet version</title>
+	<link href='resources/nguess.css' rel='stylesheet' type='text/css' />
+  </h:head>
+  <h:body>
+	<h3>Welcome to the Number Guess game!</h3>
+	<p>I'm thinking of a number between 1 and #{numGuess.numBase}.</p>
+	<f:view>
+		<h:form id="guessform">
+			<h:panelGroup rendered="#{numGuess.success == false}">
+				<p>What's your guess?</p>
+				<h:inputText id="guess" value="#{numGuess.guess}" />
+				<h:commandButton id="submit" action="#{numGuess.evaluate}" value="Submit" />
+			</h:panelGroup>
+			<h:messages infoStyle="color: blue" globalOnly="true" />
+			<h:panelGroup rendered="#{numGuess.success == true}">
+				<p>What about a new game?</p>
+				<h:commandButton id="newgame" action="#{numGuess.reset}" value="Play again" />
+			</h:panelGroup>
+		</h:form>
+	</f:view>
+  </h:body>
+</html>
