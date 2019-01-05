@@ -1,5 +1,5 @@
 # webapps
-First adventures in the world of Java Servlets and Server Pages
+First adventures in the world of Java Servlets, Server Pages, Facelets, AJAX calls, Websockets
 
 <h2>Adventure 0</h2>
 "Pure" webapps without relying on any project management tool (e.g. MAVEN), designed to be copied directly under tomcat when run on localhost...
@@ -19,4 +19,6 @@ The app operates with Servlets and without a database (instead: texts are provid
 <li>numguess1.jsp</li></ul>
 This one does not even need web.xml, only these 3 files. Start (on localhost): http://localhost:9999/numguess1/numguess1.jsp
 <br/>
-<strong>numguess2:</strong> visual in that guessable numbers are shown as either buttons (number has not been tried yet) or as a label+relational operator (<, >) when a guess has been made, indicating whether the correct answer is smaller or grater than the guess was -- done
+<strong>numguess2:</strong> visual in that guessable numbers are shown as either buttons (number has not been tried yet) or as a label+relational operator (<, >) when a guess has been made, indicating whether the correct answer is smaller or grater than the guess was
+<br/>
+<strong>numguess3:</strong> JSF version of numguess1. Start (on localhost): http://localhost:9999/numguess3/faces/numguess3.xhtml
