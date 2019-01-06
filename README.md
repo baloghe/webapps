@@ -22,3 +22,7 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <strong>numguess2:</strong> visual in that guessable numbers are shown as either buttons (number has not been tried yet) or as a label+relational operator (<, >) when a guess has been made, indicating whether the correct answer is smaller or grater than the guess was
 <br/>
 <strong>numguess3:</strong> JSF version of numguess1. Start (on localhost): http://localhost:9999/numguess3/faces/numguess3.xhtml
+<br/>
+<strong>numguess4:</strong> JSF version of numguess2, showing only the set of available numbers as potential guesses as <em>h:commandButton</em> elements
+<br/>
+<strong>numguess4ajax:</strong> almost the same except that clicking on a button only the actual form is refreshed through an AJAX call
