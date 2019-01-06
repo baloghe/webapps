@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+	  xmlns:ui="http://java.sun.com/jsf/facelets">
+  <h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Number Guess - JSF Facelet version with AJAX calls</title>
+  </h:head>
+  <h:body>
+	<h3>Welcome to the Number Guess game!</h3>
+	<p>I'm thinking of a number between #{numGuess.numBaseMin} and #{numGuess.numBaseMax}.</p>
+	<f:view>
+		<h:form id="guessform">
+			<h:panelGroup id="grpNums" rendered="#{numGuess.success == false}">
+				<p>What's your guess?</p>
+				<p>Barriers: #{numGuess.lowerBarrier} - #{numGuess.upperBarrier}</p>
+				<ui:repeat var="i" value="#{numGuess.availableNums}" varStatus="status">
+					<h:commandButton id="sendIn" value="#{i}" actionListener="#{numGuess.guessAjax(i)}">
+						<f:ajax execute="sendIn" render="@form" />
+					</h:commandButton>
+				</ui:repeat>
+			</h:panelGroup>
+			<h:messages id="msg" infoStyle="color: blue" globalOnly="true" />
+			<h:panelGroup id="grpNewGame" rendered="#{numGuess.success == true}">
+				<p>What about a new game?</p>
+				<h:commandButton id="newgame" action="#{numGuess.reset}" value="Play again" />
+			</h:panelGroup>
+		</h:form>
+	</f:view>
+  </h:body>
+</html>
