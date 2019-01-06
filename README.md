@@ -25,4 +25,4 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <br/>
 <strong>numguess4:</strong> JSF version of numguess2, showing only the set of available numbers as potential guesses as <em>h:commandButton</em> elements
 <br/>
-<strong>numguess4ajax:</strong> almost the same except that clicking on a button only the actual form is refreshed through an AJAX call
+<strong>numguess4ajax:</strong> almost the same except that clicking on a button would refresh only the actual form through an AJAX call
