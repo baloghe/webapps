@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+	  xmlns:ui="http://java.sun.com/jsf/facelets"
+	  xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<link href='resources/ttt.css' rel='stylesheet' type='text/css' />
+</h:head>
+<h:body>
+<p:importConstants type="app.Board" var="BOARD_CONSTANTS" />
+<f:view id="vBoard">
+	<h:form id="frmBoard" rendered="#{gameBean.hasLastGame || !gameBean.gameFinished}">
+		<h3>Game</h3>
+		<h:outputText value = "It's Your turn!" rendered="#{!gameBean.gameFinished}" />
+		<h:outputText value = "Game finished." rendered="#{gameBean.gameFinished}" />
+		
+		<p:dataGrid id="boardGrid" var="i" value="#{gameBean.enumFields()}" columns="#{BOARD_CONSTANTS.COLNUM}" layout="grid" paginator="false">
+			<h:panelGroup rendered="#{i.value == 0 and !gameBean.gameFinished}">
+				<h:commandButton id="sendIn" actionListener="#{gameBean.manageTurn(i.order)}" >
+					<f:ajax execute="sendIn" render="frmParam frmBoard grpHist" />
+				</h:commandButton>
+			</h:panelGroup>
+			<h:panelGroup rendered="#{i.value == 0 and gameBean.gameFinished}">
+				<div class="emptyCell"></div>
+			</h:panelGroup>
+			<h:panelGroup rendered="#{i.value == BOARD_CONSTANTS.CIRCLE}">
+				<div class="circleCell"></div>
+			</h:panelGroup>
+			<h:panelGroup rendered="#{i.value == BOARD_CONSTANTS.CROSS}">
+				<div class="crossCell"></div>
+			</h:panelGroup>
+		</p:dataGrid>
+		
+	</h:form>
+</f:view>
+</h:body>
+</html>

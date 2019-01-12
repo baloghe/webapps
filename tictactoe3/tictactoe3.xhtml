@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+	  xmlns:ui="http://java.sun.com/jsf/facelets">
+	<h:head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>Tic-Tac-Toe - JSF Facelet version with AJAX calls</title>
+		<link href='resources/ttt.css' rel='stylesheet' type='text/css' />
+		<h:outputStylesheet name="ttt.css" />
+	</h:head>
+	<h:body>
+	<table>
+		<tr>
+			<td class="mainWindow">
+				<div id="divParam">
+					<ui:insert name="param">
+						<ui:include src="content/params.xhtml" />
+					</ui:insert>
+				</div>
+			</td>
+			<td class="mainWindow" rowspan="2">
+				<div id="divHistory">
+					
+					<h:panelGroup id="grpHist" rendered="#{gameBean.hasLastGame}">
+					<h3>Previous results</h3>
+						<h:dataTable value="#{gameBean.gameStatistics}" var="s"
+								styleClass="stats-table"
+								headerClass="stats-header"
+								rowClasses="stats-cell"
+							>
+							<h:column>
+								<f:facet name="header">Duration</f:facet>
+								<h:outputText value="#{s.durationMillis}">
+									<f:convertDateTime dateStyle="full" pattern="HH:mm:ss"/>
+								</h:outputText>
+							</h:column>
+							<h:column>
+								<f:facet name="header">Turns</f:facet>
+								<h:outputText value="#{s.turns}"/>
+							</h:column>
+							<h:column>
+								<f:facet name="header">Winner</f:facet>
+								<h:outputText value="#{s.winner}"/>
+							</h:column>
+						</h:dataTable>
+					</h:panelGroup>
+					
+				</div>
+			</td>
+		</tr><tr>
+			<td class="mainWindow">
+				<div id="divBoard">
+					<ui:insert name="board">
+						<ui:include src="content/board.xhtml" />
+					</ui:insert>
+				</div>
+			</td>
+		</tr>
+	</table>
+	</h:body>
+</html>

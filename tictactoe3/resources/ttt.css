@@ -1,0 +1,43 @@
+h3 {
+	color: 	#008B8B;
+}
+div.emptyCell {
+	width:20px;
+	height:20px;
+	background-color:lightgrey;
+}
+div.crossCell {
+	width:20px;
+	height:20px;
+	background-color:lightgrey;
+	background-image:url('cross.png');
+}
+div.circleCell {
+	width:20px;
+	height:20px;
+	background-color:lightgrey;
+	background-image:url('circle.png');
+}
+button.emptyCell{
+	width:20px;
+	height:20px;
+	background-color:lightgrey;
+}
+td.startTbl{
+	vertical-align: top;
+}
+.stats-table{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.stats-cell{
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+}
+.stats-header{
+	border-collapse: collapse;
+	border: 1px solid black;
+	text-align: center;
+	background-color:coral;
+}

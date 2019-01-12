@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+	  xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+	<link href='resources/ttt.css' rel='stylesheet' type='text/css' />
+</h:head>
+<h:body>
+<h3>Game settings</h3>
+<f:view id="vParam">
+	<h:form id="frmParam">
+		<table><tr>
+		<td><p>Opponent strategy:</p></td><td>
+			<h:selectOneMenu value="#{gameBean.computerStrategyType}" disabled="#{!gameBean.gameFinished}" >
+				<f:selectItems value="#{strategyBean.strategies}" />
+				<f:ajax listener="#{gameBean.changeParam}" render="currentSettings" />
+			</h:selectOneMenu>
+		</td></tr><tr>
+		<td><p>Human starts the game:</p></td><td>
+			<h:selectBooleanCheckbox value="#{gameBean.humanStarts}"  disabled="#{!gameBean.gameFinished}">
+				<f:ajax listener="#{gameBean.changeParam}" render="currentSettings" />
+			</h:selectBooleanCheckbox>
+		</td></tr><tr>
+		<td><p>Choose marker:</p></td><td>
+			<h:selectOneRadio value="#{gameBean.humanSymbol}"  disabled="#{!gameBean.gameFinished}" >
+				<f:selectItems value="#{gameBean.markers}" />
+				<f:ajax listener="#{gameBean.changeParam}" render="currentSettings" />
+			</h:selectOneRadio>
+		</td></tr></table>
+		<h:commandButton id="newgame" actionListener="#{gameBean.reset()}" value="New game"  disabled="#{!gameBean.gameFinished}" >
+			<f:ajax execute="newgame" render="frmParam frmBoard" />
+		</h:commandButton>
+	</h:form>
+</f:view>
+</h:body>
+</html>
