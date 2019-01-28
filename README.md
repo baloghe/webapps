@@ -23,3 +23,6 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <p><strong>TicTacToe1:</strong> Java Servlet version of the fancied Tic-Tac-Toe game (computer opponent taking random moves)</p>
 <p><strong>TicTacToe2:</strong> same functionality with Java Server Pages (JSP) + two possible opponent strategies at disposal</p>
 <p><strong>TicTacToe3:</strong> a single page with JSF, AJAX and a little bit of Primefaces. Page refresh with AJAX does not work fr some reason unless you reload the page at least once after starting the app. After a page reload everything works fine...
+
+<h3>Websockets: Chat application</h3>
+<p><strong>chat1:</strong> Clients joining the conversation are given a name by the Server. They send short messages to each other. Whenever a message is sent, it appears (as unmodifiable text) on the panel of the others. On such occasions the page must not be reloaded as the recipient might himself/herself be writing a message. However the server filters the messages in that if a message contains a word from a given list (e.g. swearwords) it replaces the entire message with a standard text AND calls upon the sender to comply with profanity rules in the future (by sending him a message that appears in different typesetting as messages from the normal conversation).</p>
