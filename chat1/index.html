@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tomcat WebSocket Chat 1</title>
+	<script type = "text/javascript" src="resources/websocket.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/chat.css">
+</head>
+<body onload="init();">
+	<h3>WebSocket Chat 1</h3>
+	<table><tr><td class="msgPane">
+		<button id="btnConnect" type="button" onclick="connect();" >Connect</button>
+		<button id="btnDisconnect" type="button" onclick="disconnect();" >Disconnect</button>
+		<div id="log"></div>
+	</td><td>
+		<p>Connected as:</p>
+		<div id="divConnectedAs"></div>
+		<p>Type message here:</p>
+		<textarea id="messageToSend" placeholder="Remember, be nice!" cols="30" rows="5"></textarea>
+		<button id="btnSend" type="button" onclick="sendMessage();" >Send</button>
+		<p>Connected Users</p>
+		<div id="divConnectedUsers"></div>
+	</td></tr></table>
+</body>
+</html>

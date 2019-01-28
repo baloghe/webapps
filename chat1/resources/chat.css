@@ -1,0 +1,66 @@
+body{
+	display: block;
+    margin: 1px;
+}
+table {
+	width: 100%;
+	table-layout: fixed;
+	vertical-align: top;
+}
+.msgPane {
+	width: 80%;
+}
+#log{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+textarea {
+	resize: none;
+	overflow: auto;
+}
+.spUserSelf{
+	border: 2px solid #dedede;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 1px;
+	margin: 1px 0;
+	text-align: right;
+}
+.spUserServer{
+	border: 2px solid red;
+	background-color: coral;
+	border-radius: 5px;
+	padding: 1px;
+	margin: 1px 0;	
+}
+.spUserPartner{
+	border: 2px solid #F0E68C;
+	background-color: #FFFACD;
+	border-radius: 5px;
+	padding: 1px;
+	margin: 1px 0;	
+}
+.spSender{
+	font-weight: bold;
+}
+.spMsgText{
+	font-weight: normal;
+}
+.time-right {
+	float: right;
+	color: #aaa;
+}
+.time-left {
+	float: left;
+	color: #999;
+}
+table{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+}
+#divConnectedAs, #divConnectedUsers{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+}
