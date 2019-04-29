@@ -1,0 +1,75 @@
+body{
+	display: block;
+    margin: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+iframe{
+	/*position:fixed; top:0; left:0; bottom:0; right:0;*/ width:100%; height:300px; border:none; margin:0; padding:0; overflow-x:hidden; overflow-y:hidden; z-index:999999;
+}
+table {
+	width: 100%;
+	table-layout: fixed;
+	vertical-align: top;
+}
+textarea {
+	resize: none;
+	overflow: auto;
+}
+#leftPane{
+	border: 2px solid #C8A8DA;
+	background-color: #FFF5E9;
+	padding: 1px;
+	margin: 1px 0;
+	text-align: left;
+	vertical-align: text-top;
+}
+#rightPane{
+	border: 2px solid #C8A8DA;
+	background-color: #FFF5E9;
+	padding: 1px;
+	margin: 1px 0;
+	text-align: left;
+	vertical-align: text-top;
+}
+#divReflex{
+	border: 2px solid #EDB5D2;
+	background-color: #FFE5C0;
+	border-radius: 5px;
+}
+#divResults{
+	border: 2px solid #EDB5D2;
+	background-color: #EAD2DF;
+	border-radius: 5px;
+	padding: 1px;
+	margin: 1px 0;
+}
+#divOwnScore{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: red;
+}
+p.scramble{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+span.opponentName{
+}
+span.opponentScore{
+	font-style: italic;
+}
+span.opponentScoreLast{
+	font-style: italic;
+	color: red;
+}
+span.clock{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: red;
+}
+input:invalid {
+  border: 2px dashed red;
+}/*
+input:valid {
+  border: 2px solid black;
+}*/

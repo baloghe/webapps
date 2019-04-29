@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word scramble</title>
+	<script type = "text/javascript" src="resources/ui.js"></script>
+	<script type = "text/javascript" src="resources/websocket.js"></script>
+	<script type = "text/javascript" src="resources/logger.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/scramble.css">
+</head>
+<body onload="init();">
+	<h3>Word scramble</h3>
+	<p>Start game!</p>
+	<!-- <form action="game.html" target="frmMain" method="post"> -->
+	<form target="frmMain" action="chooseRoom.html" method="post">
+		<label for="iName">Name:</label>
+		<input type="text" name="iName" id="iName" required/>
+			
+		<input id="btnConnect" type="submit" onclick="connect();" value="Start game"/>
+		
+	</form>
+	<div id="wsLog"></div>
+	<h4>Available rooms</h4>
+	<div id="divGameSpaces" style="overflow:hidden;">Push &#91;Start game&#93; first!</div>
+	<div id="diviFrame" style="overflow:hidden;">
+		<iframe name="frmMain" id="frmMain"></iframe>
+	</div>
+</body>
+</html>

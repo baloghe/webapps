@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Word scramble</title>
+	<script type = "text/javascript" src="resources/logger.js"></script>
+	<script type = "text/javascript" src="resources/iframeui.js"></script>
+	<script type = "text/javascript" src="resources/game.js"></script>
+	<script type = "text/javascript" src="resources/player.js"></script>
+	<link rel="stylesheet" type="text/css" href="resources/scramble.css">
+</head>
+<body onload="init();">
+	
+	<table><tr><td id="leftPane">
+		<table><tr><td>
+			<table><tr><td>
+				<div id="divTitle">&nbsp;</div>
+			</td><td>
+				<div id="divClock">&nbsp;</div>
+			</td><td>
+				<div id="divLeaveRoom"><button id="btnLeaveRoom" type="button" onclick="leaveRoom();">Leave room</button></div>
+			</td></tr></table>
+		</td></tr><tr><td>
+			<div id="divReflex">&nbsp;</div>
+		</td></tr><tr><td>
+			<div id="divPuzzle">&nbsp;</div>
+		</td></tr><tr><td>
+			<div id="divTry">
+				<textarea id="answerToSend" placeholder="What could that be?" pattern="[A-Za-z]+" cols="30" rows="1"></textarea>
+				<button id="btnSend" type="button" onclick="sendAnswer();" disabled>Send</button>
+			</div>
+		</td></tr><tr><td>
+			<div id="divResults">Good solutions so far:</div>
+		</td></tr></table>
+	
+	</td><td id="rightPane">
+	<div id="divOwnScore">Score:</div>
+		<table><tr><td>
+			<div id="divOpponents">Opponents:</div>
+		</td></tr></table>
+	
+	</td></tr></table>
+	
+</body>
+</html>

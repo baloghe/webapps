@@ -22,7 +22,7 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <h3>Variations on Tic-Tac-Toe</h3>
 <p><strong>TicTacToe1:</strong> Java Servlet version of the fancied Tic-Tac-Toe game (computer opponent taking random moves)</p>
 <p><strong>TicTacToe2:</strong> same functionality with Java Server Pages (JSP) + two possible opponent strategies at disposal</p>
-<p><strong>TicTacToe3:</strong> a single page with JSF, AJAX and a little bit of Primefaces. Page refresh with AJAX does not work fr some reason unless you reload the page at least once after starting the app. After a page reload everything works fine...
+<p><strong>TicTacToe3:</strong> a single page with JSF, AJAX and a little bit of Primefaces. Page refresh with AJAX does not work fr some reason unless you reload the page at least once after starting the app. After a page reload everything works fine...</p>
 
 <h3>Websockets: The classical Chat application and beyond...</h3>
 <p><strong>chat1:</strong> Simple chat application with Html/CSS/Javascript and Java backend using the Websocket API. No Facelets this time </p>
@@ -33,4 +33,11 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li>score calculation is overlapping between the two sides in that the client side is able to calculate player score (e.g. increasing it by one in case of a server-side confirmation of the answer sent in), however the final score is broadcasted by the server in a separate message
 <li>the client side is not provided with the solution to the actual scramble, however a validation on the answer could be performed prior to submission (to prove whether it is really a reordering of the character sequence given in the scramble)
 <li>the game itself (game.html) is nested into an IFRAME element on the page (index.html). The latter (along with its Javascript objects) is mostly responsible to translate messages to Client actions and vice versa.
+</ul></p>
+<p><strong>wordscramble2:</strong> after connecting to the Server, <ul>
+<li>Users are enabled to set up individual Rooms by providing keywords</li>
+<li>the <a href="http://www.datamuse.com/api/">Datamuse API</a> is used to retrieve relevant words for each keyword with the ML (Meaning Like) operator (results containing Space are eliminated)</li>
+<li>Users entering in the same room are playing the WordScramble game (over the individual WordBag of the Room) against each other</li>
+<li>a User is enabled to enter into one Room at a time</li>
+<li>a Room is destroyed when the last user quits</li>
 </ul></p>
