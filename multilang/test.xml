@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themes>
+	<theme id="1" label="General intro">
+		<question id="1" timeSec="10">
+			<variant lang="EN" txt="How are you?">
+				<hint txt="fine" />
+				<hint txt="bad" />
+				<hint txt="And you?" />
+			</variant>
+			<variant lang="DE" txt="Wie geht es Ihnen?">
+				<hint txt="gut" />
+				<hint txt="schlecht" />
+				<hint txt="MIR geht es ..." />
+				<hint txt="Und Ihnen?" />
+			</variant>
+			<variant lang="FR" txt="Comment ça va?">
+				<hint txt="bien" />
+				<hint txt="mal" />
+			</variant>
+		</question>
+	</theme>
+	<theme id="2" label="Job Interview">
+		<question id="1" timeSec="30">
+			<variant lang="EN" txt="Can you tell me a little about yourself?">
+				<hint txt="Present-Past-Future" />
+				<hint txt="experiences" />
+				<hint txt="skills" />
+			</variant>
+		</question>
+		<question id="11" timeSec="30">
+			<variant lang="EN" txt="Why are you looking for job?">
+				<hint txt="better opportunity" />
+				<hint txt="more challenges" />
+				<hint txt="better opportunity" />
+			</variant>
+		</question>
+		<question id="2" timeSec="30">
+			<variant lang="EN" txt="How did you hear about the position?">
+				<hint txt="colleague or friend in the company " />
+				<hint txt="careers website" />
+			</variant>
+		</question>
+		<question id="3" timeSec="30">
+			<variant lang="EN" txt="What do you know about the company?">
+				<hint txt="department where the position is based" />
+			</variant>
+		</question>
+		<question id="4" timeSec="30">
+			<variant lang="EN" txt="Why do you want this job?">
+				<hint txt="TBD" />
+			</variant>
+		</question>
+		<question id="5" timeSec="30">
+			<variant lang="EN" txt="Why should we hire you?">
+				<hint txt="TBD" />
+			</variant>
+		</question>
+		<question id="6" timeSec="30">
+			<variant lang="EN" txt="What are your greatest professional strengths?">
+				<hint txt="TBD" />
+			</variant>
+		</question>
+		<question id="7" timeSec="30">
+			<variant lang="EN" txt="What do you consider to be your weaknesses?">
+				<hint txt="TBD" />
+			</variant>
+		</question>
+		<question id="8" timeSec="30">
+			<variant lang="EN" txt="What is your greatest professional achievement?">
+				<hint txt="TBD" />
+			</variant>
+		</question>
+		<question id="9" timeSec="30">
+			<variant lang="EN" txt="Why are you leaving your current job?">
+				<hint txt="TBD" />
+			</variant>
+		</question>
+		<question id="10" timeSec="30">
+			<variant lang="EN" txt="What would your first 30 days look like in this role?">
+				<hint txt="TBD" />
+			</variant>
+		</question>
+	</theme>
+</themes>

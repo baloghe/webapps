@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+	  xmlns:ui="http://java.sun.com/jsf/facelets"
+	  xmlns:p="http://primefaces.org/ui"
+	  >
+  <h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Multilanguage Interviewer - JSF Facelet version with AJAX calls</title>
+	<link rel="stylesheet" type="text/css" href="resources/multilang.css" />
+  </h:head>
+  <h:body>
+	<h3>Welcome to the Multilanguage Interviewer!</h3>
+	<div id="divLang"><b>Languages:</b>
+		<!-- https://www.mkyong.com/jsf2/jsf-2-checkboxes-example/  :: 3
+			 https://memorynotfound.com/jsf-checkboxes-selectbooleancheckbox-and-selectmanycheckbox/  :: 3
+		-->
+		<h:form id="frmLang">
+			<h:selectManyCheckbox value="#{bBean.selectedLangs}" >
+				<f:selectItems value="#{bBean.langsMap}" />
+				<f:ajax listener="#{bBean.languageChoiceChanged}" />
+			</h:selectManyCheckbox>
+		</h:form>
+	</div>
+	<table>
+		<tr><td>
+			<div id="divThemes"><b>Themes</b>
+				<h:form id="frmThemes">
+					<h:selectManyCheckbox layout="pageDirection" value="#{bBean.selectedThemes}">
+						<f:selectItems value="#{bBean.themesMap}" />
+						<f:ajax listener="#{bBean.themeChoiceChanged}" />
+					</h:selectManyCheckbox>
+				</h:form>
+			</div>
+		</td><td>
+			
+			<table>
+				<tr><td>
+					<div id="divCDown">
+						<h:form>
+							<h:outputText id="txtCDown" value="#{bBean.secondsRemaining}" />
+							<p:poll interval="1" listener="#{bBean.decrementTime}" update="txtCDown,txtQuestion,txtHints" />
+						</h:form>
+					</div>
+					<div id="divPause"> </div>
+				</td><td>
+					<div id="divQuestion"><h:outputText id="txtQuestion" value="#{bBean.actQuestion}" /></div>
+				</td></tr>
+				<tr><td colspan="2">
+					<div id="divKW"><!-- <h:outputText id="txtHints" value="#{bBean.actHints}" />  -->
+						<p:tagCloud id="txtHints" model="#{bBean.hintCloud}" />
+					</div>
+				</td></tr>
+			</table>
+			
+		</td></tr>
+	</table>
+  </h:body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<themes>
+	<theme id="1" label="General intro">
+		<question id="1" timeSec="10">
+			<variant lang="EN" txt="How are you?">
+				<hint txt="fine" />
+				<hint txt="bad" />
+				<hint txt="And you?" />
+			</variant>
+			<variant lang="DE" txt="Wie geht es Ihnen?">
+				<hint txt="gut" />
+				<hint txt="schlecht" />
+				<hint txt="MIR geht es ..." />
+				<hint txt="Und Ihnen?" />
+			</variant>
+			<variant lang="FR" txt="Comment ça va?">
+				<hint txt="bien" />
+				<hint txt="mal" />
+			</variant>
+		</question>
+		<question id="2" timeSec="20">
+			<variant lang="EN" txt="Tell me about yourself">
+				<hint txt="nice" />
+			</variant>
+		</question>
+	</theme>
+	<theme id="2" label="Another theme">
+	</theme>
+</themes>

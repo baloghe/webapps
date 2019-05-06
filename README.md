@@ -41,3 +41,9 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li>a User is enabled to enter into one Room at a time</li>
 <li>a Room is destroyed when the last user quits</li>
 </ul></p>
+<p><strong>multilang:</strong> JSF+AJAX combined. Nothing useful, just a simple demonstration of JSF+AJAX capabilities:<ul>
+<li>a randomly chosen question and accompanying hints (presented in a Primefaces TagCloud) are shown on the screen for a predefined length of time</li>
+<li>counting down is implemented on the server side, client side issues an AJAX Poll every second</li>
+<li>User may change settings (e.g. Language, Theme etc.) that would be applied to the next random choice (on server side)</li>
+<li>once clock reaches 0 a new question+hint set is shown on the screen</li>
+</ul>
