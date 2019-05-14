@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+	  xmlns:c="http://java.sun.com/jsp/jstl/core"
+	  xmlns:ui="http://java.sun.com/jsf/facelets"
+	  xmlns:p="http://primefaces.org/ui"
+	  xmlns:ct="http://custom.component/tags"
+	  >
+  <h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Custom Tag Cloud tester</title>
+	<link rel="stylesheet" type="text/css" href="resources/ccc.css" />
+  </h:head>
+  <h:body>
+	<h3>Custom Tag Cloud</h3>
+	<div id="divSettings">
+		<!-- https://www.mkyong.com/jsf2/jsf-2-checkboxes-example/  :: 3
+			 https://memorynotfound.com/jsf-checkboxes-selectbooleancheckbox-and-selectmanycheckbox/  :: 3
+		-->
+		<b>Font families:</b>
+		<h:form id="frmFF">
+			<h:selectManyCheckbox value="#{setBean.fontFamilies}" >
+				<p:ajax event="click"/>
+				<f:selectItems value="#{setBean.fontFamiliesList}" var="i" itemLabel="#{i}" itemValue="#{i}" />
+			</h:selectManyCheckbox>
+		</h:form>		
+
+		<b>Font styles:</b>
+		<h:form id="frmFS">
+			<h:selectManyCheckbox value="#{setBean.fontStyles}" >
+				<p:ajax event="click"/>
+				<f:selectItems value="#{setBean.fontStylesList}" var="i" itemLabel="#{i}" itemValue="#{i}" />
+			</h:selectManyCheckbox>
+		</h:form>
+
+		<b>Colors:</b>
+		<h:form id="frmC">
+			<h:selectManyCheckbox value="#{setBean.colors}" >
+				<p:ajax event="click"/>
+				<f:selectItems value="#{setBean.colorsList}" var="i" itemLabel="#{i}" itemValue="#{i}" />
+			</h:selectManyCheckbox>
+		</h:form>
+
+		<b>Text transformations:</b>
+		<h:form id="frmTT">
+			<h:selectManyCheckbox value="#{setBean.textTransforms}" >
+				<p:ajax event="click"/>
+				<f:selectItems value="#{setBean.textTransformsList}" var="i" itemLabel="#{i}" itemValue="#{i}" />
+			</h:selectManyCheckbox>
+		</h:form>
+
+		<h:form id="frmSubmit">
+			<h:commandButton id="sendIn" action="#{bBean.refreshHintsCloud}" value="Refresh Cloud" >
+				<f:ajax render="txtCloud" />
+			</h:commandButton>
+		</h:form>
+	</div>
+	<div id="divCloud">
+		<ct:customTagCloud id="txtCloud" model="#{bBean.hintCloud}" />
+		<!-- <p:tagCloud id="txtCloud" model="#{bBean.hintCloud}" /> -->
+	</div>
+  </h:body>
+</html>
