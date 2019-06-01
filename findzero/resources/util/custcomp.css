@@ -1,0 +1,47 @@
+table{
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+table.results{
+	border: 1px solid black;
+}
+th.results{
+	font-weight: bold;
+	background-color: orange;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: right;
+}
+td.results{
+	font-weight: normal;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: right;
+}
+
+
+.button{
+	width: 100%;
+}
+.buttonZero{
+	width: 100%;
+	font-weight: bold;
+	background-color: red;
+	color: white;
+}
+.custcomp{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: black;
+}
+.positive{
+	color: lightgreen;
+}
+.negative{
+	color: red;
+}
+.zero{
+	color: black;
+}

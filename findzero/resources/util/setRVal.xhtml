@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+    xmlns:cc="http://java.sun.com/jsf/composite">
+
+	<cc:interface componentType="cc.FindZeroComponent2">
+	<!-- <cc:interface> -->
+		<f:facet name="setRVal"/>
+		<cc:attribute name="value" type="java.lang.Integer" />
+		<cc:attribute name="randomRange" type="java.lang.Integer" default="5"/>
+		<cc:attribute name="displayResults" />
+		<cc:attribute name="gameFinished" required="true" method-signature="void f(java.lang.String, java.lang.Integer)"/>
+	</cc:interface>
+
+	<cc:implementation>
+
+		<h:outputScript     library="util" name="custcomp.js"  target="head" />
+		<h:outputStylesheet library="util" name="custcomp.css" target="head" />
+
+		<c:set target="#{cc}" property="randomRange" value="#{cc.attrs.randomRange}"/>
+
+		<div id="divCustComp" class="custcomp">
+			<table class="custcomp">
+				<tr><td rowspan="2">
+					<div id="custComp-number">
+						<h:outputText    id="custComp-number-uncompleted" value = "#{cc.value}" rendered="#{cc.value != 0}" 
+							styleClass="#{ (cc.value > 0) ? 'positive' : ( (cc.value == 0) ? 'zero' : 'negative')}"
+						/>
+						<h:commandButton id="custComp-number-success"     value = "#{cc.value}" rendered="#{cc.value == 0}" 
+							styleClass="buttonZero"
+						>
+							<f:ajax render="@all #{cc.attrs.displayResults}" event="click" listener="#{cc.newGame}" />
+						</h:commandButton>
+					</div>
+				</td><td>
+					<div id="custComp-plus">
+						<h:commandButton value="+" styleClass="button" >
+							<f:ajax render="@all" event="click" listener="#{cc.increase}" />
+						</h:commandButton>
+					</div>
+				</td></tr><tr><td>
+					<div id="custComp-minus">
+						<h:commandButton value="-" styleClass="button" >
+							<f:ajax render="@all" event="click" listener="#{cc.decrease}" />
+						</h:commandButton>
+					</div>
+				</td></tr>
+			</table>
+			ID=#{cc.id}
+		</div>
+
+	</cc:implementation>
+
+</html>

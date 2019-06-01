@@ -47,8 +47,14 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li>User may change settings (e.g. Language, Theme etc.) that would be applied to the next random choice (on server side)</li>
 <li>once clock reaches 0 a new question+hint set is shown on the screen</li>
 </ul>
+<h3>Composite components</h3>
 <p><strong>custcomp1:</strong> my first composite component, actually an extension of Primefaces' DefaultTagCloud alongwith its renderer:<ul>
 <li><code>DefaultTagCloudItem</code> is extended with new attributes for font family, font style, color and text transformation</li>
 <li><code>TagCloudRenderer.encodeMarkup()</code> is overwritten based on <a href="https://jar-download.com/artifacts/org.primefaces/primefaces/6.2/source-code/org/primefaces/component/tagcloud/TagCloudRenderer.java"> v6.2 source </a> in that it surrounds the label with a <code>span</code> tag and provides CSS class names based on <code>DefaultTagCloudItem</code> attributes.</li>
 <li>an example usage is also provided</li>
+</ul>
+<p><strong>findzero:</strong> JSF composite component with <ul>
+<li><code>@FacesComponent</code> class responsible for standalone functions</li>
+<li><code>@ManagedBean/code> using data collected from the components</li>
+<li>multiple instances present working separately from one another</li>
 </ul>
