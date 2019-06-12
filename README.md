@@ -48,7 +48,7 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li>once clock reaches 0 a new question+hint set is shown on the screen</li>
 </ul>
 <h3>Composite components</h3>
-<p><strong>custcomp1:</strong> my first composite component, actually an extension of Primefaces' DefaultTagCloud alongwith its renderer:<ul>
+<p><strong>custcomp1:</strong> my first composite component, actually an extension of Primefaces' DefaultTagCloud along with its renderer:<ul>
 <li><code>DefaultTagCloudItem</code> is extended with new attributes for font family, font style, color and text transformation</li>
 <li><code>TagCloudRenderer.encodeMarkup()</code> is overwritten based on <a href="https://jar-download.com/artifacts/org.primefaces/primefaces/6.2/source-code/org/primefaces/component/tagcloud/TagCloudRenderer.java"> v6.2 source </a> in that it surrounds the label with a <code>span</code> tag and provides CSS class names based on <code>DefaultTagCloudItem</code> attributes.</li>
 <li>an example usage is also provided</li>
@@ -57,4 +57,9 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li><code>@FacesComponent</code> class responsible for standalone functions</li>
 <li><code>@ManagedBean/code> using data collected from the components</li>
 <li>multiple instances present working separately from one another</li>
+<p><strong>flipcard1:</strong>JSF+PrimeFaces+Client-Side-Javascript combined in order to create a composite component with the sole purpose of selecting a random element of a given alphabet :) However...<ul>
+<li>in order to have some control over the individual components, they register themselves upon instantiation at a backing bean</li>
+<li>the random letter is apparently chosen via a 'random' animation, performed on client side via a scheduled manipulation of the respective elements' style classes</li>
+<li>however the decision, which random letter to choose, is controlled by a managed bean on the server side</li>
+<li>the user's only 'control' is a button which starts the animation</li>
 </ul>

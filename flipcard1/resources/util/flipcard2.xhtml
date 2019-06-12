@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:cc="http://java.sun.com/jsf/composite">
+              
+               <cc:interface componentType="cc.FlipCardComponent2">
+                              <cc:facet name="flipCard"/>
+                             
+                              <cc:attribute name="bean" />
+                                                          
+                              <cc:attribute name="lib"      default="util"/>
+                              <cc:attribute name="css"      default="flipcard.css"/>
+                              <cc:attribute name="js"       default="flipcard.js"/>
+                             
+                              <cc:attribute name="idPrefix"         default="flipCard"/>
+                              <cc:attribute name="classPrefix"      default="flip-card"/>
+                              <cc:attribute name="flipCntBase"      default="2"/>
+                              <cc:attribute name="flipCntRange"     default="2"/>
+                              <cc:attribute name="flipCntOffset"    default="200"/>
+                              <cc:attribute name="jsonAlphabet"     default="['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']"/>
+                             
+                              <cc:attribute name="registerTo" method-signature="void f(java.lang.String)"/>
+               </cc:interface>
+              
+               <cc:implementation>
+                              <h:outputScript     library="#{cc.attrs.lib}" name="#{cc.attrs.js}"  target="head" />
+                              <h:outputStylesheet library="#{cc.attrs.lib}" name="#{cc.attrs.css}" target="head" />
+                             
+                              <div id="#{cc.attrs.idPrefix}-#{cc.id}" class="#{cc.attrs.classPrefix}">
+                                <div id="#{cc.attrs.idPrefix}-inner-#{cc.id}" class="#{cc.attrs.classPrefix}-inner" ontransitionend="#{cc.attrs.js}.animEnded(this);">
+                                            <div class="#{cc.attrs.classPrefix}-front">
+                                              <span id="#{cc.attrs.idPrefix}-front-#{cc.id}" class="#{cc.attrs.classPrefix}-letter"></span>
+                                            </div>
+                                            <div class="#{cc.attrs.classPrefix}-back">
+                                              <span id="#{cc.attrs.idPrefix}-back-#{cc.id}"  class="#{cc.attrs.classPrefix}-letter"></span>
+                                            </div>
+                                </div>
+                              </div>
+                             
+                              <script>
+                                            #{cc.attrs.js}.init( '#{cc.id}','#{cc.attrs.idPrefix}','#{cc.attrs.classPrefix}'
+                                                                ,'#{cc.attrs.flipCntBase}','#{cc.attrs.flipCntRange}','#{cc.attrs.flipCntOffset}'
+                                                                                                                      ,#{cc.attrs.jsonAlphabet}
+                                                                                                                      )
+                              </script>
+                             
+               </cc:implementation>
+              
+</html>

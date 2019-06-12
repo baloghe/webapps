@@ -1,0 +1,91 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+                 xmlns:c="http://java.sun.com/jsp/jstl/core"
+                 xmlns:p="http://primefaces.org/ui"
+      xmlns:util="http://java.sun.com/jsf/composite/util">
+   <!-- according to Mykong: https://www.mkyong.com/jsf2/composite-components-in-jsf-2-0/
+                              The folder name of the composite components is defined is the component access path
+                              http://java.sun.com/jsf/composite/folder-name-in-resources-folder
+                              which means that You have to have THE FOLLOWING FOLDER STRUCTURE:
+                              resources / util
+   -->
+<h:head>
+               <title>Random Letter</title>
+</h:head>
+<h:body>
+               <h2>Variations on Random Letters</h2>
+              
+               <h3>Composite Component WITHOUT @FacesComponent or @ManagedBean</h3>
+              
+               <table>
+                              <tr><td><fieldset id="fsComponent1"><legend>flipcard</legend>
+                                           
+                                            <util:flipcard
+                                                           id="fc1"
+                                            />
+                                            <util:flipcard
+                                                           id="fc2"
+                                                           flipCntBase="4"
+                                                           flipCntRange="4"
+                                                           flipCntOffset="0"
+                                            />
+                                           
+                              </fieldset>
+                              </td><td><fieldset id="fs1"><legend>Test</legend>
+                                            <h:commandButton id="btnFlip1" value="Start" onclick="flipcard.js.animStart(this,'[\x22btnFlip1\x22]')">
+                                            </h:commandButton>
+                                            <p>This implementation has no FacesComponent or any kind of backing bean behind. So no meaningful connection to the server side.</p>
+                                            <p>It only relies on JSF and thus constitutes to a "first step" towards making a useful widget.</p>
+                                            <p>The animation is done by a scheduled manipulation of style classes.</p>
+                              </fieldset>
+                              </td></tr>
+               </table>
+              
+               <h3>@FacesComponent and @ManagedBean introduced, PrimeFaces called for synchronizing Server and Client side</h3>
+              
+               <table>
+                              <tr><td><fieldset id="fsComponent2"><legend>flipcard2</legend>
+                                           
+                                            <table><tr><td>
+                                            <util:flipcard2
+                                                           id="fc3"
+                                                           registerTo="#{testBean2.registerCard}"
+                                            />
+                                            </td><td>next 'random' letter: <h:outputText id="ev3" value="#{testBean2.getExpectedValue('fc3')}" /></td></tr><tr><td>
+                                            <util:flipcard2
+                                                           id="fc4"
+                                                           registerTo="#{testBean2.registerCard}"
+                                                           flipCntBase="4"
+                                                           flipCntRange="4"
+                                                           flipCntOffset="0"
+                                            />
+                                            </td><td>next 'random' letter: <h:outputText id="ev4" value="#{testBean2.getExpectedValue('fc4')}" /></td></tr>
+                                            </table>
+                                           
+                              </fieldset>
+                              </td><td><fieldset id="fs2"><legend>Test</legend>
+                                            <h:form id="frm2">
+                                            <h:commandButton id="btnFlip2" value="Start" >
+                                                           <p:ajax update="ev3 ev4" event="click" listener="#{testBean2.animStart}" oncomplete="afterLoad(xhr, status, args)" />
+                                            </h:commandButton>
+                                            <h:outputScript>
+                                                           /* sources:
+                                                              https://stackoverflow.com/questions/29547206/how-can-i-refresh-a-javascript-variable-populated-by-jsf-via-ajax
+                                                              https://www.primefaces.org/showcase/ui/misc/requestContext.xhtml
+                                                           */
+                                                           function afterLoad(xhr, status, args) {
+                                                                          //console.log("afterLoad called, args.nextLettersJSON="+args.nextLettersJSON);
+                                                                          flipcard.js.animStart(this,'[\x22frm2:btnFlip2\x22]',args.nextLettersJSON);
+                                                           }
+                                            </h:outputScript>
+                                            </h:form>
+                                            <p>The component registers itself at a ManagedBean with the provided method call during the rendering phase (<code>encodeAll</code> overridden).</p>
+                                            <p>The ManagedBean takes care of the next letter the cards should show. That is, the animation flips random letters except for the last one which is fixed in advanced by the bean. </p>
+                                            <p>The expected outcome (defined by the ManagedBean) is transferred to the respective DOM elements via Primefaces' <code>RequestContext</code> and <code>addCallbackParam</code> facilities.</p>
+                              </fieldset>
+                              </td></tr>
+               </table>
+              
+</h:body>
+</html>
