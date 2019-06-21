@@ -55,7 +55,7 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 </ul>
 <p><strong>findzero:</strong> JSF composite component with <ul>
 <li><code>@FacesComponent</code> class responsible for standalone functions</li>
-<li><code>@ManagedBean/code> using data collected from the components</li>
+<li><code>@ManagedBean</code> using data collected from the components</li>
 <li>multiple instances present working separately from one another</li>
 </ul>
 <p><strong>flipcard1:</strong>JSF+PrimeFaces+Client-Side-Javascript combined in order to create a composite component with the sole purpose of selecting a random element of a given alphabet :) However...<ul>
