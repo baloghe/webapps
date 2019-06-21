@@ -57,6 +57,7 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li><code>@FacesComponent</code> class responsible for standalone functions</li>
 <li><code>@ManagedBean/code> using data collected from the components</li>
 <li>multiple instances present working separately from one another</li>
+</ul>
 <p><strong>flipcard1:</strong>JSF+PrimeFaces+Client-Side-Javascript combined in order to create a composite component with the sole purpose of selecting a random element of a given alphabet :) However...<ul>
 <li>in order to have some control over the individual components, they register themselves upon instantiation at a backing bean</li>
 <li>should more cards appear on the screen, they could be grouped into virtual 'collections' so that they could be manipulated easily together</li>
