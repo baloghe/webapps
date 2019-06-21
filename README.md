@@ -59,6 +59,7 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li>multiple instances present working separately from one another</li>
 <p><strong>flipcard1:</strong>JSF+PrimeFaces+Client-Side-Javascript combined in order to create a composite component with the sole purpose of selecting a random element of a given alphabet :) However...<ul>
 <li>in order to have some control over the individual components, they register themselves upon instantiation at a backing bean</li>
+<li>should more cards appear on the screen, they could be grouped into virtual 'collections' so that they could be manipulated easily together</li>
 <li>the random letter is apparently chosen via a 'random' animation, performed on client side via a scheduled manipulation of the respective elements' style classes</li>
 <li>however the decision, which random letter to choose, is controlled by a managed bean on the server side</li>
 <li>the user's only 'control' is a button which starts the animation</li>
