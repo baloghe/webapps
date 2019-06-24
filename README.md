@@ -58,10 +58,15 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li><code>@ManagedBean</code> using data collected from the components</li>
 <li>multiple instances present working separately from one another</li>
 </ul>
-<p><strong>flipcard1:</strong>JSF+PrimeFaces+Client-Side-Javascript combined in order to create a composite component with the sole purpose of selecting a random element of a given alphabet :) However...<ul>
+<p><strong>flipcard1:</strong> JSF+PrimeFaces+Client-Side-Javascript combined in order to create a composite component with the sole purpose of selecting a random element of a given alphabet :) However...<ul>
 <li>in order to have some control over the individual components, they register themselves upon instantiation at a backing bean</li>
 <li>should more cards appear on the screen, they could be grouped into virtual 'collections' so that they could be manipulated easily together</li>
 <li>the random letter is apparently chosen via a 'random' animation, performed on client side via a scheduled manipulation of the respective elements' style classes</li>
 <li>however the decision, which random letter to choose, is controlled by a managed bean on the server side</li>
 <li>the user's only 'control' is a button which starts the animation</li>
 </ul>
+<p><strong>flipcard1:</strong> uses <code>flipcard1</code> to show and animate 6 random letters on the screen.<ul>
+<li>the backing bean controls the layout of the individual flipcard elements<li>
+<li>and their 'logical' constraints (i.e. in this setting the topmost flipcard always provides vocals wheres the last row is constraint to provide consonants only)</li>
+</ul>
+<p>Try to build grammatically correct words out of the resulting 6 letters using each letter once only!</p>
