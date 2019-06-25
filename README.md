@@ -2,27 +2,28 @@
 First adventures in the world of Java Servlets, Server Pages, Facelets, AJAX calls, Websockets
 
 <h2>Adventure 0</h2>
-"Pure" webapps without relying on any project management tool (e.g. MAVEN), designed to be copied directly under tomcat when run on localhost...
+<p>"Pure" webapps without relying on any project management tool (e.g. MAVEN), designed to be copied directly under tomcat when run on localhost...</p>
 
 <h3>Lückentext</h3>
-Lückentext (english: Cloze-test) is a type of grammar test where certain words are missing from an otherwise coherent tesxt and the participant has to fill in the gaps by typing the missing words.<br/>
-The app operates with Servlets and without a database (instead: texts are provided in a static XML file)
+<p>Lückentext (english: Cloze-test) is a type of grammar test where certain words are missing from an otherwise coherent text and the participant has to fill in the gaps by typing the missing words.<br/>
+The app operates with Servlets and without a database (instead: texts are provided in a static XML file)</p>
 
 <h3>Variations on the NumberGuess theme</h3>
 <p><strong>numguess1:</strong> "vanilla" based on instructions at ntu.edu, using JSP
 <ul><li>app.NumberGuessBean</li>
 <li>app.Guess -> only to keep track of former guesses</li>
 <li>numguess1.jsp</li></ul>
-This one does not even need web.xml, only these 3 files. Start (on localhost): http://localhost:9999/numguess1/numguess1.jsp
-<strong>numguess2:</strong> visual in that guessable numbers are shown as either buttons (number has not been tried yet) or as a label+relational operator (<, >) when a guess has been made, indicating whether the correct answer is smaller or grater than the guess was</p>
+<p>This one does not even need web.xml, only these 3 files. Start (on localhost): http://localhost:9999/numguess1/numguess1.jsp</p>
+<p><strong>numguess2:</strong> visual in that guessable numbers are shown as either buttons (number has not been tried yet) or as a label+relational operator (<, >) when a guess has been made, indicating whether the correct answer is smaller or grater than the guess was</p>
 <p><strong>numguess3:</strong> JSF version of numguess1. Start (on localhost): http://localhost:9999/numguess3/faces/numguess3.xhtml</p>
 <p><strong>numguess4:</strong> JSF version of numguess2, showing only the set of available numbers as potential guesses as <em>h:commandButton</em> elements</p>
 <p><strong>numguess4ajax:</strong> almost the same except that clicking on a button would refresh only the actual form through an AJAX call</p>
 
-<h3>Variations on Tic-Tac-Toe</h3>
-<p><strong>TicTacToe1:</strong> Java Servlet version of the fancied Tic-Tac-Toe game (computer opponent taking random moves)</p>
-<p><strong>TicTacToe2:</strong> same functionality with Java Server Pages (JSP) + two possible opponent strategies at disposal</p>
-<p><strong>TicTacToe3:</strong> a single page with JSF, AJAX and a little bit of Primefaces. Page refresh with AJAX does not work fr some reason unless you reload the page at least once after starting the app. After a page reload everything works fine...</p>
+<h3>Variations on Tic-Tac-Toe</h3><ul>
+<li><strong>TicTacToe1:</strong> Java Servlet version of the fancied Tic-Tac-Toe game (computer opponent taking random moves)</li>
+<li><strong>TicTacToe2:</strong> same functionality with Java Server Pages (JSP) + two possible opponent strategies at disposal</li>
+<li><strong>TicTacToe3:</strong> a single page with JSF, AJAX and a little bit of Primefaces. Page refresh with AJAX does not work for some reason unless you reload the page at least once after starting the app. After a page reload everything works fine...</li>
+</ul>
 
 <h3>Websockets: The classical Chat application and beyond...</h3>
 <p><strong>chat1:</strong> Simple chat application with Html/CSS/Javascript and Java backend using the Websocket API. No Facelets this time </p>
@@ -48,6 +49,7 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li>once clock reaches 0 a new question+hint set is shown on the screen</li>
 </ul>
 <h3>Composite components</h3>
+<p>Pointing towards online multiplayer games, our aim here is to find ways to control certain aspects from server-side whereas most of the rendering and animation is done locally.</p>
 <p><strong>custcomp1:</strong> my first composite component, actually an extension of Primefaces' DefaultTagCloud along with its renderer:<ul>
 <li><code>DefaultTagCloudItem</code> is extended with new attributes for font family, font style, color and text transformation</li>
 <li><code>TagCloudRenderer.encodeMarkup()</code> is overwritten based on <a href="https://jar-download.com/artifacts/org.primefaces/primefaces/6.2/source-code/org/primefaces/component/tagcloud/TagCloudRenderer.java"> v6.2 source </a> in that it surrounds the label with a <code>span</code> tag and provides CSS class names based on <code>DefaultTagCloudItem</code> attributes.</li>
@@ -65,8 +67,9 @@ This one does not even need web.xml, only these 3 files. Start (on localhost): h
 <li>however the decision, which random letter to choose, is controlled by a managed bean on the server side</li>
 <li>the user's only 'control' is a button which starts the animation</li>
 </ul>
-<p><strong>flipcard1:</strong> uses <code>flipcard1</code> to show and animate 6 random letters on the screen.<ul>
-<li>the backing bean controls the layout of the individual flipcard elements<li>
+<p><strong>letprov1:</strong> uses <code>flipcard1</code> to show and animate 6 random letters on the screen.<ul>
+<li>the backing bean controls the layout of the individual flipcard elements</li>
 <li>and their 'logical' constraints (i.e. in this setting the topmost flipcard always provides vocals wheres the last row is constraint to provide consonants only)</li>
+<li>as with <code>flipcard1</code>, the 'outcome' (i.e. a set of 6 random letters) is set on server-side prior to any animation starts locally in the browser</li>
 </ul>
-<p>Try to build grammatically correct words out of the resulting 6 letters using each letter once only!</p>
+<p>Try to build grammatically correct words out of the resulting letters using each letter once only!</p>
