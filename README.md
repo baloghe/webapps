@@ -67,9 +67,16 @@ The app operates with Servlets and without a database (instead: texts are provid
 <li>however the decision, which random letter to choose, is controlled by a managed bean on the server side</li>
 <li>the user's only 'control' is a button which starts the animation</li>
 </ul>
+<p><strong>Letterprovider (1 and 2)</strong></p><ul><li>
 <p><strong>letprov1:</strong> uses <code>flipcard1</code> to show and animate 6 random letters on the screen.<ul>
 <li>the backing bean controls the layout of the individual flipcard elements</li>
 <li>and their 'logical' constraints (i.e. in this setting the topmost flipcard always provides vocals wheres the last row is constraint to provide consonants only)</li>
 <li>as with <code>flipcard1</code>, the 'outcome' (i.e. a set of 6 random letters) is set on server-side prior to any animation starts locally in the browser</li>
+</ul></p>
+</li><li>
+<p><strong>letprov2:</strong>an improvement on client-side:<ul>
+<li>the component triggers a <code>flipcardsanimended</code> event when all cards have finished their animation</li>
+<li>the cards (i.e. their content) is draggable, in order to simplify a later scrabble-like application where the user has to build words from them</li>
+<li>a <code>DragDropList</code> is created as a demonstration of the drag-and-drop functionality</li>
+</ul></p>
 </ul>
-<p>Try to build grammatically correct words out of the resulting letters using each letter once only!</p>
